@@ -31,6 +31,18 @@ layout: default
                 </article>
             {% endif %}
             
+            {% if site.twitter %}
+            {% include twitter_button.html %}
+            {% endif %}
+            
+            {% if site.facebook %}
+            {% include facebook_button.html %}
+            {% endif %}
+            
+            {% if site.disqus %}
+            {% include disqus_comments.html %}
+            {% endif %}
+            
             {% if page.next %}
             
                 <article class="{% cycle '6u', '6u$' %} 12u(small) excerpt f-right">
@@ -55,14 +67,4 @@ layout: default
 </div>
 
 
-{% if site.twitter %}
-{% include twitter_button.html %}
-{% endif %}
 
-{% if site.facebook %}
-{% include facebook_button.html %}
-{% endif %}
-
-{% if site.disqus %}
-{% include disqus_comments.html %}
-{% endif %}
