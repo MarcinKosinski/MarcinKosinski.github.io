@@ -19,7 +19,7 @@ github_username:      MarcinKosinski  # Replace this with your GitHub username
 linkedin_username:    marcin-kosiński-81435aab  # Replace this with your LinkedIn username
 google_plus_username: 115677570336612137067  # Replace this with your Google+ username
 facebook_username:    m.p.kosinski  # Replace this with your Facebook username
-dribbble_username:    example  # Replace this with your Dribbble username
+dribbble_username:    # Replace this with your Dribbble username
 
 # Build settings
 markdown: kramdown
