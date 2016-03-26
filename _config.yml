@@ -24,3 +24,15 @@ stackoverflow_usernumber: 3857701 # stackoverflow user numer :) my own invention
 
 # Build settings
 markdown: kramdown
+
+# Disqus comments:
+disqus:           true
+shortname:        r-addict
+
+# Social Media
+twitter:          true # add a twitter button to each post
+facebook:         true # add a facebook share button to each post
+
+author:
+  name:           'Marcin Kosiński'
+  url:            marcinkosinski.github.io
