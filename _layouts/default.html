@@ -41,6 +41,16 @@
                 </a>
               </li>
               {% endif %}
+              
+              
+              {% if site.stackoverflow_usernumber %}
+              <li>
+                <a href="https://stackoverflow.com/users/{{ site.stackoverflow_usernumber }}" class="icon fa-stack-overflow">
+                  <span class="label">StackOverflow</span>
+                </a>
+              </li>
+              {% endif %}
+              
 
               {% if site.twitter_username %}
               <li>

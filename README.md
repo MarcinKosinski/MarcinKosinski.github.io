@@ -1,0 +1,1 @@
+Homepage based on [Strata-Jekyll-Theme](https://github.com/CloudCannon/Strata-Jekyll-Theme)
