@@ -4,9 +4,8 @@ title: kosinski # Title of your site
 email: m.p.kosinski@gmail.com # Your contant email
 
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+I am an R addict with a biostatistical background, working in IT and keen on online recommendation. 
+I write about R Technologies, Survival Analysis and R Package Development.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://marcinkosinski.github.io" # the base hostname & protocol for your site
 
@@ -36,3 +35,6 @@ facebook:         true # add a facebook share button to each post
 author:
   name:           'Marcin Kosiński'
   url:            marcinkosinski.github.io
+  
+gems:
+  - jekyll-feed  
