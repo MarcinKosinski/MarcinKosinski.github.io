@@ -10,6 +10,17 @@ layout: default
 
         <section>
             {{ content }}
+            {% if site.twitter %}
+            {% include twitter_button.html %}
+            {% endif %}
+            
+            {% if site.facebook %}
+            {% include facebook_button.html %}
+            {% endif %}
+            
+            {% if site.disqus %}
+            {% include disqus_comments.html %}
+            {% endif %}
         </section>
         
         <footer>
@@ -30,16 +41,6 @@ layout: default
                     </footer>
                 </article>
             {% endif %}
-            
-            {% if site.twitter %}
-            {% include twitter_button.html %}
-            {% endif %}
-            
-            {% if site.facebook %}
-            {% include facebook_button.html %}
-            {% endif %}
-            
-            <p> </p>
             
             {% if site.disqus %}
             {% include disqus_comments.html %}
