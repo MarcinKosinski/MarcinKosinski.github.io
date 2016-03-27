@@ -38,3 +38,10 @@ author:
   
 gems:
   - jekyll-feed  
+  
+# Permalinks
+permalink: /:year/:month/:day/:title.html
+
+
+github:
+  repo:           https://github.com/MarcinKosinski/MarcinKosinski.github.io
