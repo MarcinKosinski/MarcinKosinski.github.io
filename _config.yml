@@ -4,8 +4,8 @@ title: kosinski.r-addict.com # Title of your site
 email: m.p.kosinski@gmail.com # Your contant email
 
 description: > # this means to ignore newlines until "baseurl:"
-I am an R addict with a biostatistical background, working in IT and keen on online recommendation. 
-I write about R Technologies, Survival Analysis and R Package Development.
+    I am an R addict with a biostatistical background, working in IT and keen on online recommendation. 
+    I write about R Technologies, Survival Analysis and R Package Development.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://r-addict.com" # the base hostname & protocol for your site
 
