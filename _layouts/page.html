@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div id="main">
+    <article>
+        <header class="major">
+            <h2 class="post-title">{{ page.title }}</h2>
+                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        </header>
+
+        <section>
+            {{ content }}
+            {% if site.twitter %}
+            {% include twitter_button.html %}
+            {% endif %}
+            
+            {% if site.facebook %}
+            {% include facebook_button.html %}
+            {% endif %}
+            
+            {% if site.disqus %}
+            {% include disqus_comments.html %}
+            {% endif %}
+        </section>
+        
+        
+   </article>
+
+</div>
