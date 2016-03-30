@@ -40,8 +40,7 @@
           a biostatistical background, <br>
           working in IT and keen on <br>
           online recommendation.</h1>
-          
-          <br>
+ 
       <h1>{% assign pages_list = site.pages %}
          {% for node in pages_list %}
            {% if node.title != null %}
@@ -50,7 +49,7 @@
              {% endif %}
            {% endif %}
          {% endfor %}</h1>
-         <br>
+
 
       </header>
 
@@ -59,6 +58,7 @@
 
         <!-- Footer -->
         <footer id="footer">
+           <div>
             <ul class="icons">
 
               {% if site.github_username %}
@@ -132,6 +132,8 @@
                 </a>
               </li>
             </ul>
+            </div>
+            <div>
             <ul class="copyright">
                 <li>Core Projects</li>
                 <li>Reproducible Research Engine: <a href="http://pbiecek.github.io/archivist">archivist</a></li>
@@ -139,6 +141,7 @@
                 <li>European R Users Meeting: <a href="https://erum.ue.poznan.pl">eRum</a></li>
                 <li>Used Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a></li>
             </ul>
+            </div>
         </footer>
         <!--some stats for disqus-->
       <script id="dsq-count-scr" src="//r-addict.disqus.com/count.js" async></script>
