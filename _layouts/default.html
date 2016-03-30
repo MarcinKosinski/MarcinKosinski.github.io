@@ -41,12 +41,12 @@
           working in IT and keen on <br>
           online recommendation.</h3>
  <br>
-      <h1><a class="button small" href="{{ site.baseurl }}">Home</a>
+      <h1><a class="sidebar-nav-item{% if page.url == '/index.html' %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
          {% assign pages_list = site.pages %}
          {% for node in pages_list %}
            {% if node.title != null %}
              {% if node.layout == "page" %}
-               <a class="button small" href="{{ site.baseurl }}{{ node.url }}.html">{{ node.title }}</a>
+               <a class="sidebar-nav-item{% if page.url == '/index.html' %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}.html">{{ node.title }}</a>
              {% endif %}
            {% endif %}
          {% endfor %}</h1>
