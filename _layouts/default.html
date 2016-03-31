@@ -28,12 +28,20 @@
   			<link rel="alternate" type="application/atom+xml" title="R Addict Blog" href="/atom.xml" />
   		</noscript>
   		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
+  		
+  		<script src="//load.sumome.com/" data-sumo-site-id="eede8d010c5d71b6639f774a30a355b3c4b861ea3eaedd6c982feca291d9e325" async="async"></script>
+  		<!-- Place this tag in your head or just before your close body tag. -->
+  		<!-- google plus shares -->
+      <script src="https://apis.google.com/js/platform.js" async defer></script>
 
   	</head>
 
 	<body id="top">
 
       <header id="header">
+
+         
+         
           <a href="#" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
           <h1><strong>Marcin Kosiński</strong></h1>
           <h3><strong>I am an <a href="https://www.r-project.org/">R addict</a></strong> with<br>
@@ -55,7 +63,16 @@
       </header>
 
 
-        {{ content }}
+            {{ content }}
+            
+            
+      <div id="main">
+            {% if site.disqus %}
+            {% include disqus_comments.html %}
+            {% endif %}
+      </div>
+
+
 
         <!-- Footer -->
         <footer id="footer">

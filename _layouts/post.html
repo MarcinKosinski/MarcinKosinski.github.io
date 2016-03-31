@@ -5,17 +5,40 @@ layout: default
     <article>
         <header class="major">
             <h2 class="post-title">{{ page.title }}</h2>
-                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}             
+            {% if site.twitter %}
+            {% include twitter_button.html %}
+            {% endif %}
+
+            {% if site.linkedin %}
+            {% include linkedin_button.html %}
+            {% endif %}
+            
+            {% if site.googleplus %}
+            {% include googleplus_button.html %}
+            {% endif %}
+            
+
+            </p>
         </header>
 
         <section>
+
             {{ content }}
+            {% if site.facebook %}
+            {% include facebook_button.html %}
+            {% endif %}
+            
             {% if site.twitter %}
             {% include twitter_button.html %}
             {% endif %}
             
-            {% if site.facebook %}
-            {% include facebook_button.html %}
+            {% if site.linkedin %}
+            {% include linkedin_button.html %}
+            {% endif %}
+            
+            {% if site.googleplus %}
+            {% include googleplus_button.html %}
             {% endif %}
             
             {% if site.disqus %}
@@ -40,10 +63,6 @@ layout: default
                         </ul>
                     </footer>
                 </article>
-            {% endif %}
-            
-            {% if site.disqus %}
-            {% include disqus_comments.html %}
             {% endif %}
             
             {% if page.next %}

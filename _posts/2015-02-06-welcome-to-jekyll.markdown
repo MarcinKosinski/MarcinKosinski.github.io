@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Suspendisse pellentesque
+author: Marcin Kosinski
 date: 2015-02-06T14:37:44.000Z
 categories: update
 ---
