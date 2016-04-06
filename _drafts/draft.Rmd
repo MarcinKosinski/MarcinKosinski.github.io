@@ -1,0 +1,18 @@
+---
+layout:  post
+title: "Sample Post"
+comments:  true
+published:  true
+author: "Homer White"
+date: 2015-12-12 20:00:00
+categories: [R]
+output:
+  html_document:
+    mathjax:  default
+    fig_caption:  true
+---
+
+
+```{r include = FALSE}
+library(knitr)
+```
