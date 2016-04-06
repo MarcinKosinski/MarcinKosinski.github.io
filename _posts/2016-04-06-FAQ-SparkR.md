@@ -13,12 +13,8 @@ output:
     section_numbering: true
     keep_md: true
 ---
-<img src="/images/fulls/07.jpg" class="fit image">
 
-
-
-
-Many people keep asking me whether I have tried [SparkR](http://spark.apache.org/docs/latest/sparkr.html), is it worthy using, is it sexy or WHAT is it at all. I felt that writing answers to the frequently asked question (**FAQ**) in the are of **WHAT is that Spark/SparkR?** would help many R Scientists to understand this **Big Data Buzz**-tool. I gathered information form the documentation and code from stackoverflow questions and prepared belowed list.
+<img src="/images/fulls/07.jpg" class="fit image"> Many people keep asking me whether I have tried [SparkR](http://spark.apache.org/docs/latest/sparkr.html), is it worthy using, is it sexy or WHAT is it at all. I felt that writing answers to the frequently asked question (**FAQ**) in the are of **WHAT is that Spark/SparkR?** would help many R Scientists to understand this **Big Data Buzz**-tool. I gathered information form the documentation and code from stackoverflow questions and prepared belowed list.
 
 * Q1: How to explain what is Spark to the regular R user
 * Q2: Can I run Spark applications from R: SparkR
