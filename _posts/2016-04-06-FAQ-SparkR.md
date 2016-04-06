@@ -19,6 +19,8 @@ output:
 * Q1: How to explain what is Spark to the regular R user
 * Q2: Can I run Spark applications from R: SparkR
 * Q3: How do I install SparkR?
+* Q4: How do I install Spark?
+* Q5: Can I use Spark on Windows?
 {:toc}
 
 ## Q1: How to explain what is Spark to the regular R user?

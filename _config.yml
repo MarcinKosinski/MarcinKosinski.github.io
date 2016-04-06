@@ -23,28 +23,10 @@ stackoverflow_usernumber: 3857701 # stackoverflow user numer :) my own invention
 
 # Build settings
 markdown: kramdown
-highlighter:  rouge
 kramdown:
-  default_lang: R
   input: GFM
-  
-R:
-  type: programming
-  color: "#198CE7"
-  aliases:
-  - R
-  - Rscript
-  - splus
-  extensions:
-  - .r
-  - .rd
-  - .rsx
-  filenames:
-  - .Rprofile
-  interpreters:
-  - Rscript
-  ace_mode: r  
-  
+  syntax_highlighter: rouge
+
 
 # Disqus comments:
 disqus:           true
