@@ -23,6 +23,10 @@ stackoverflow_usernumber: 3857701 # stackoverflow user numer :) my own invention
 
 # Build settings
 markdown: kramdown
+highlighter:  rouge
+kramdown:
+  default_lang: r
+  input: GFM
 
 # Disqus comments:
 disqus:           true
