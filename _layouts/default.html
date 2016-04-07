@@ -49,17 +49,16 @@
           a biostatistical background, <br>
           working in IT and keen on <br>
           online recommendation.</h3>
- <br>
-      <h1><a class="sidebar-nav-item{% if page.url == '/index.html' %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-         {% assign pages_list = site.pages %}
-         {% for node in pages_list %}
-           {% if node.title != null %}
-             {% if node.layout == "page" %}
-               <a class="sidebar-nav-item{% if page.url == '/index.html' %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}.html">{{ node.title }}</a>
-             {% endif %}
-           {% endif %}
-         {% endfor %}</h1>
-         
+<h1>
+   <div>
+      <ul>
+         <a class="sidebar-nav-item{% if page.url == '/index.html' %} active{% endif %} icon fa-home" href="{{ site.baseurl }}">Home</a><br>
+         <a class="sidebar-nav-item{% if page.url == '/index.html' %} active{% endif %} icon fa-area-chart" href="/About.html">About</a><br>
+         <a class="sidebar-nav-item{% if page.url == '/index.html' %} active{% endif %} icon fa-archive" href="/archive.html">Archive</a><br>
+         <a class="sidebar-nav-item{% if page.url == '/index.html' %} active{% endif %} icon fa-folder-open" href="/categories.html">Categories</a>
+      </ul>
+   </div>
+</h1>
       </header>
 
 
@@ -77,11 +76,14 @@
         <!-- Footer -->
         <footer id="footer">
            <div>
+                         <br>
+           <br>
+           <br>
             <ul class="icons">
 
               {% if site.github_username %}
               <li>
-                <a href="https://github.com/{{ site.github_username }}" class="icon fa-github">
+                <a href="https://github.com/{{ site.github_username }}" class="icon fa-github" style="font-size:1.0em;">
                   <span class="label">GitHub</span>
                 </a>
               </li>
@@ -90,7 +92,7 @@
               
               {% if site.stackoverflow_usernumber %}
               <li>
-                <a href="https://stackoverflow.com/users/{{ site.stackoverflow_usernumber }}" class="icon fa-stack-overflow">
+                <a href="https://stackoverflow.com/users/{{ site.stackoverflow_usernumber }}" class="icon fa-stack-overflow" style="font-size:1.0em;">
                   <span class="label">StackOverflow</span>
                 </a>
               </li>
@@ -99,7 +101,7 @@
 
               {% if site.twitter_username %}
               <li>
-                <a href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter">
+                <a href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter" style="font-size:1.0em;">
                   <span class="label">Twitter</span>
                 </a>
               </li>
@@ -107,7 +109,7 @@
 
               {% if site.linkedin_username %}
               <li>
-                <a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="icon fa-linkedin">
+                <a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="icon fa-linkedin" style="font-size:1.0em;">
                   <span class="label">LinkedIn</span>
                 </a>
               </li>
@@ -115,7 +117,7 @@
 
               {% if site.google_plus_username %}
               <li>
-                <a href="https://plus.google.com/{{ site.google_plus_username }}" class="icon fa-google-plus">
+                <a href="https://plus.google.com/{{ site.google_plus_username }}" class="icon fa-google-plus" style="font-size:1.0em;">
                   <span class="label">Google+</span>
                 </a>
               </li>
@@ -123,7 +125,7 @@
 
               {% if site.facebook_username %}
               <li>
-                <a href="https://www.facebook.com/{{ site.facebook_username }}" class="icon fa-facebook">
+                <a href="https://www.facebook.com/{{ site.facebook_username }}" class="icon fa-facebook" style="font-size:1.0em;">
                   <span class="label">Facebook</span>
                 </a>
               </li>
@@ -139,13 +141,13 @@
 
               {% if site.email %}
               <li>
-                <a href="mailto:{{ site.email }}" class="icon fa-envelope-o">
+                <a href="mailto:{{ site.email }}" class="icon fa-envelope-o" style="font-size:1.0em;">
                   <span class="label">Email</span>
                 </a>
               </li>
               {% endif %}
                <li>
-                <a href="/atom.xml" class="icon fa-rss">
+                <a href="/atom.xml" class="icon fa-rss" style="font-size:1.0em;">
                   <span class="label">ATOM feed</span>
                 </a>
               </li>
@@ -157,7 +159,6 @@
                 <li>Reproducible Research Engine: <a href="http://pbiecek.github.io/archivist">archivist</a></li>
                 <li>R Toolkit for Biostatistics: <a href="https://rtcga.github.io/RTCGA">RTCGA</a></li>
                 <li>European R Users Meeting: <a href="https://erum.ue.poznan.pl">eRum</a></li>
-                <li>Used Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a></li>
                 <li>Blogroll: <a href="http://www.r-bloggers.com/">R-bloggers</a>, <a href="http://smarterpoland.pl/">SmarterPoland</a></li>
             </ul>
             </div>

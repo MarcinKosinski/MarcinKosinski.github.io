@@ -28,7 +28,7 @@ opts_chunk$set(
 	eval = FALSE
 )
 ```
-<img src="/images/fulls/07.jpg" class="fit image"> Many people keep asking me whether I have tried [SparkR](http://spark.apache.org/docs/latest/sparkr.html), is it worthy using, is it sexy or WHAT is it at all. I felt that writing answers to the frequently asked question (**FAQ**) in the are of **WHAT is that Spark/SparkR?** would help many R Scientists to understand this **Big Data Buzz**-tool. I gathered information form the documentation and code from stackoverflow questions and prepared belowed list.
+<img src="/images/fulls/07.jpg" class="fit image"> Many people keep asking me whether I have tried [SparkR](http://spark.apache.org/docs/latest/sparkr.html), is it worth using, is it sexy or WHAT is it at all. I felt that writing answers to the frequently asked question (**FAQ**) in the area of **WHAT is that Spark/SparkR?** would help many R Scientists to understand this **Big Data Buzz**-tool. I gathered information from the documentation and code from stackoverflow questions and prepared belowed list.
 
 * Q1: How to explain what is Spark to the regular R user
 * Q2: Can I run Spark applications from R: SparkR
@@ -45,13 +45,17 @@ From the documentation of [Spark Overview](http://spark.apache.org/docs/latest/#
 
 So in simple words it is a computational engine that is being optimized for speed of computations.
 
-## Q2: Can I run Spark applications from R: SparkR
+## Q2: Can I run Spark applications from R: SparkR?
 
 From the Spark Overview we know that it is possible to use Spark from R without knowing Spark syntax at all. It can be done through [SparkR: R frontend for Spark](https://amplab-extras.github.io/SparkR-pkg/) package, which is included in Spark since the version 1.4.0. Now Spark is released under version 1.6.1.
 
 ## Q3: How do I install SparkR?
 
-By now, SparkR is distributed with Spark. So after you install Spark you will get SparkR package in the installation directory.
+By now, SparkR is distributed with Spark. So after you install Spark you will get SparkR package in the installation directory. This means that loading SparkR package will be possible from the `/R/lib` subdirectory of the directory in which Spark was installed with the usage of `lib.loc` parameter in `library()`
+
+```{r}
+library(SparkR, lib.loc = "/opt/spark/R/lib")
+```
 
 ## Q4: How do I install Spark?
 
@@ -59,16 +63,14 @@ Spark can be downloaded from [this site](http://spark.apache.org/downloads.html)
 
 ## Q5: Can I use Spark on Windows?
 
-Sure!
-
-> I found the easiest solution on Windows is to build from source.
+Sure! The easiest solution on Windows is to build from source, after you first get [Maven](http://maven.apache.org/). See this guide [http://spark.apache.org/docs/latest/building-spark.html](http://spark.apache.org/docs/latest/building-spark.html)
 
 Explanation on [stackoverflow](http://stackoverflow.com/a/25485800/3857701)
 
 
 ## Q6: How to start Spark application using SparkR from shell?
 
-Assuming that the installation directory was `/opt/` directory one can run SparkR package in shell with
+Assuming that the installation directory was `/opt/spark` one can run SparkR package in shell with
 
 ```{r}
 /opt/spark/bin/sparkR
@@ -92,7 +94,7 @@ You can specify the number of executors and executor cores for Spark application
 ## Q7: How to start Spark application using SparkR from RStudio?
 
 If you'd rather use RStudio to work with R frontend, which I really recommend, then you will have to load
-SparkR with the non-default directory, so you should get familiar with `lib.loc` parameterin `library` function.
+SparkR with the non-default directory, so you should get familiar with `lib.loc` parameter in `library` function.
 
 ```{r}
 library(SparkR, lib.loc = "/opt/spark/R/lib")
@@ -167,7 +169,7 @@ sparkR.stop()
 ```
 
 
-## Q10: What can be potential Spark data source?
+## Q11: What can be potential Spark data source?
 
 One can connect to HiveServer by specifiny `hiveContext`, but also one can read `csv` files to work with.
 This requires additional Spark package, a goot start is spark-csv_2.10:1.0.3 package which can be downloaded
@@ -190,7 +192,7 @@ sc <- sparkR.init(sparkHome = "/opt/spark",
 
 
 
-## Q11: Can I use R functions on Spark?
+## Q12: Can I use R functions on Spark?
 
 No. Maily you are using Spark functions, but called from R equivalents. You can not run on Spark engine a function
 that exists on R but has no equivalents in Spark.
@@ -214,13 +216,13 @@ df <- createDataFrame(sqlContext/hiveContext, RResultChanged)
 
 
 
-## Q12: What about machine learning and MLlib. Which algorithms are available from Spark and SparkR?
+## Q13: What about machine learning and MLlib?
 
-Spark provide greate machine learning library called [MLlib](http://spark.apache.org/mllib/) with alghoritms based on stochastic gradient
+Spark provide great machine learning library called [MLlib](http://spark.apache.org/mllib/) with alghoritms based on stochastic gradient
 descent optimization so that Spark can be connected to stream data and use online machine learning methods. It is not possible to connect R with [MLlib](http://spark.apache.org/mllib/) library so far and the only machine learning alghoritms available from SparkR are [Gaussian and Binomial GLM models](http://spark.apache.org/docs/latest/sparkr.html#machine-learning).
 
 
-## Q13: Where can I read more?! I want more examples!
+## Q14: Where can I read more?! I want more examples!
 
 There is a great documentation page about using Spark from R on [Spark Programming Guides](http://spark.apache.org/docs/latest/sparkr.html).
 
