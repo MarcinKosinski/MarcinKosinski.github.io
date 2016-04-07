@@ -14,7 +14,8 @@ output:
     keep_md: true
 ---
 
-<img src="/images/fulls/07.jpg" class="fit image"> Many people keep asking me whether I have tried [SparkR](http://spark.apache.org/docs/latest/sparkr.html), is it worth using, is it sexy or WHAT is it at all. I felt that writing answers to the frequently asked question (**FAQ**) in the area of **WHAT is that Spark/SparkR?** would help many R Scientists to understand this **Big Data Buzz**-tool. I gathered information from the documentation and code from stackoverflow questions and prepared belowed list.
+<img src="/images/fulls/07.jpg" class="fit image"> Many people keep asking me whether I have tried [SparkR](http://spark.apache.org/docs/latest/sparkr.html), is it worth using, is it sexy or **WHAT is it at all**. I felt that creating frequently asked questions (**FAQ**) in the field of **WHAT is that Spark/SparkR?** would help many R Scientists to understand this **Big Data Buzz**-tool. I have gathered information from the documentation and some code from stackoverflow questions in preparation for the list below.
+
 
 * Q1: How to explain what is Spark to the regular R user
 * Q2: Can I run Spark applications from R: SparkR
@@ -82,8 +83,8 @@ You can specify the number of executors and executor cores for Spark application
 
 ## Q7: How to start Spark application using SparkR from RStudio?
 
-If you'd rather use RStudio to work with R frontend, which I really recommend, then you will have to load
-SparkR with the non-default directory, so you should get familiar with `lib.loc` parameter in `library` function.
+If you'd rather use RStudio to work with R frontend, which I really recommend, you have to load
+SparkR with the non-default directory. Therefore you should get familiar with `lib.loc` parameter in `library()` function
 
 
 ```r
@@ -109,9 +110,7 @@ There is also extra `spark.driver.memory` option described in [Starting Up from 
 
 Spark context is required to run Spark itself and any other context is required to 
 conect Spark with its extensions. SQL Context enables to use Spark SQL which mainly 
-means one can write SQL statements instead of using Spark functions and Spark SQL module
-will translate those statements for Spark.
-
+means that one can write SQL statements instead of using Spark functions and that Spark SQL module will translate those statements for Spark.
 
 For example `hiveContext` can be created with
 
@@ -135,7 +134,7 @@ SparkResult <- sql(hiveContext, "select statement")
 
 ## Q9: Can I run Spark application locally or only on Yarn Hadoop Cluster?
 
-You can both run application locally or on a Yarn Cluster when you specify additional `master` parameter.
+You can do it both ways. Yarn Cluster requires additional `master` parameter specification.
 
 - shell
 
@@ -167,8 +166,8 @@ sparkR.stop()
 
 ## Q11: What can be potential Spark data source?
 
-One can connect to HiveServer by specifiny `hiveContext`, but also one can read `csv` files to work with.
-This requires additional Spark package, a goot start is spark-csv_2.10:1.0.3 package which can be downloaded
+One can connect to HiveServer by specifing `hiveContext`, but also one can read `csv` files to work with.
+This requires additional Spark package, a good start is spark-csv_2.10:1.0.3 package which can be downloaded
 from Spark packages repository [http://spark-packages.org/](http://spark-packages.org/)
 
 - shell
@@ -192,10 +191,9 @@ sc <- sparkR.init(sparkHome = "/opt/spark",
 
 ## Q12: Can I use R functions on Spark?
 
-No. Maily you are using Spark functions, but called from R equivalents. You can not run on Spark engine a function
-that exists on R but has no equivalents in Spark.
+No. Mainly you are using Spark functions, but called from R equivalents. You can not run on Spark engine a function that exists in R but has no equivalents in Spark.
 
-But you can run data from Spark application with
+But you can get data from Spark application with
 
 
 ```r
