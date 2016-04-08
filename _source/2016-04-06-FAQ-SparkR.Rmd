@@ -58,6 +58,8 @@ By now, SparkR is distributed with Spark. So after you install Spark you will ge
 library(SparkR, lib.loc = "/opt/spark/R/lib")
 ```
 
+Installation under Windows and OS is well described on this [r-bloggers post](http://www.r-bloggers.com/installing-and-starting-sparkr-locally-on-windows-os-and-rstudio/).
+
 ## Q4: How do I install Spark?
 
 Spark can be downloaded from [this site](http://spark.apache.org/downloads.html) and can be build with the [following instructions](http://spark.apache.org/docs/latest/building-spark.html)
