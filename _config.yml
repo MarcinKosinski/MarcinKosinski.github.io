@@ -17,7 +17,7 @@ twitter_username:     R_souvenirs  # Replace this with your Twitter username
 github_username:      MarcinKosinski  # Replace this with your GitHub username
 linkedin_username:    marcin-kosiński-81435aab  # Replace this with your LinkedIn username
 google_plus_username: 115677570336612137067  # Replace this with your Google+ username
-facebook_username:    m.p.kosinski  # Replace this with your Facebook username
+facebook_username:    DataFortuneTelling  # Replace this with your Facebook username
 dribbble_username:    # Replace this with your Dribbble username
 stackoverflow_usernumber: 3857701 # stackoverflow user numer :) my own invention
 
@@ -37,6 +37,7 @@ twitter:          true # add a twitter button to each post
 facebook:         true # add a facebook share button to each post
 linkedin:         true # my own button
 googleplus:       true # my own button
+facebooklike:     true # my own
 
 author:
   name:           'Marcin Kosiński'

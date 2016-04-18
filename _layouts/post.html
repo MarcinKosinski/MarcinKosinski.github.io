@@ -18,6 +18,9 @@ layout: default
             {% include googleplus_button.html %}
             {% endif %}
             
+            {% if site.facebooklike %}
+            {% include facebook_like_button.html %}
+            {% endif %}
 
             </p>
         </header>
@@ -27,6 +30,10 @@ layout: default
             {{ content }}
             {% if site.facebook %}
             {% include facebook_button.html %}
+            {% endif %}
+            
+            {% if site.facebooklike %}
+            {% include facebook_like_button.html %}
             {% endif %}
             
             {% if site.twitter %}
