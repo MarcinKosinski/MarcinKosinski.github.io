@@ -39,7 +39,7 @@ I have found a great and easy to implement solution to this challenge. It consis
 It's a [Disqus](https://disqus.com/) panel! It is widely used by RStudio in their homepage of [rmarkdown](http://rmarkdown.rstudio.com/) package. You can see it at the bottom of each subsite (and even on my blog subwebsites).
 <img src="/images/fulls/disqus_rmarkdown.png" class="fit image">
 
-To start you just click [Add Disqus to your site](https://publishers.disqus.com/engage?utm_source=rmarkdown&utm_medium=Disqus-Footer) and follow the creation instructions. If you'd better follow print-screen tutorial check the gallery that is below.
+To start you just click [Add Disqus to your site](https://publishers.disqus.com/engage?utm_source=rmarkdown&utm_medium=Disqus-Footer) and follow the creation instructions. If you'd better follow print-screen tutorial check the gallery that is below (visible under mozilla firefox).
 
 <div id ="gallery">
 					<section id="two">
