@@ -32,46 +32,22 @@ To start you just click [Add Disqus to your site](https://publishers.disqus.com/
 						<h2>Print Screen Tutorial</h2>
 						<div class="row">
 							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/disqus_step1.png" class="image fit thumb"><img src="images/fulls/disqus_step1.png" alt="" /></a>
-								<h3>Magna sed consequat tempus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<a href="images/fulls/disqus_step1.png" class="image fit thumb"><img src="images/thumbs/disqus_step1.png" alt="" /></a>
+								<h3>Start by clicking 'Start Using Engage'.</h3>
 							</article>
 							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/survplot2.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Ultricies lacinia interdum</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<a href="images/fulls/disqus_step2.png" class="image fit thumb"><img src="images/thumbs/disqus_step2.png" alt="" /></a>
+								<h3>Site address, unique disqus name and category.</h3>
 							</article>
 							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/survplot3.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-								<h3>Tortor metus commodo</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<a href="images/fulls/disqus_step3.png" class="image fit thumb"><img src="images/thumbs/disqus_step3.png" alt="" /></a>
+								<h3>Decide whether it's personal or company site.</h3>
 							</article>
 							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/survplot4.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>Quam neque phasellus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<a href="images/fulls/disqus_step4.png" class="image fit thumb"><img src="images/thumbs/disqus_step4.png" alt="" /></a>
+								<h3>Answer further questions.</h3>
 							</article>
-							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/survplot5.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3>Nunc enim commodo aliquet</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/survplot6.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/survplot7.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3>Nunc enim commodo aliquet</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/survplot8.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-						</div>
+  						</div>
 						</section>
 </div>
 
@@ -129,4 +105,4 @@ shinyApp(ui, server)
 Now you can improve your shinydashboard with disqus panel as we have done to provide easier feedback collecting at our shinydashboard in [MI2](https://github.com/mi2-warsaw/) group where we present available rooms to rent in the desired localization with user constraints as price, room size and time to work.
 <a href="http://mi2.mini.pw.edu.pl:8080/CzasDojazdu/App/"><img src="/images/fulls/disqus_shiny.png" class="fit image"></a>
 
-If you think I can improve my blog or this post please use Disqus panel below :)!
+If you think I can improve my blog or this post please use Disqus at the end of this page :)!
