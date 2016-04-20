@@ -18,14 +18,14 @@ output:
 
 But how author can enable easy contact with him as the author of the project or application? I've seen home websites having special **contact** panel where authors provide e-mail address or links to specially prepared forums. I found that providing e-mail address isn't the best solution as people keep asking the same questions, not knowing they were asked and, what is even `WORSE`, not knowing they were already answered
 .
-Sometimes it's good to use **Issue** panel at the GitHub repository of the project but this works mostly for packages development and gathering users requests about improving bugs. What if I have prepared shiny dashboard and I would not like to have application under one URL and discusion panel under other (Issues at GitHub repository, forum or google group)? I would like to have an application and panel in one place, preferably within the application. `This is possible!`
+Sometimes it's good to use **Issue** panel at the GitHub repository of the project but this works mostly for packages development and gathering users requests about improving bugs. What if I have prepared shiny dashboard and I would not like to have application under one URL and discussion panel under other (Issues at GitHub repository, forum or Google group)? I would like to have an application and panel in one place, preferably within the application. `This is possible!`
 
 I have found a great and easy to implement solution to this challenge. It consists of a few clicks and one copy and paste operation. So it's a standard in the present reality of [StackOverflow](http://stackoverflow.com/). 
 
-It's a [Disqus](https://disqus.com/) panel! It is widely used by RStudio in their homepage of [rmarkdown](http://rmarkdown.rstudio.com/) package. You can see it at the bottom of each subsite (and even on my blog subwebsites).
+It's a [Disqus](https://disqus.com/) panel! It is widely used by RStudio in their homepage of [rmarkdown](http://rmarkdown.rstudio.com/) package. You can see it at the bottom of each sub site (and even on my blog sub websites).
 <img src="/images/fulls/disqus_rmarkdown.png" class="fit image">
 
-To start you just click [Add Disqus to your site](https://publishers.disqus.com/engage?utm_source=rmarkdown&utm_medium=Disqus-Footer) and follow the creation instructions. If you'd better follow print-screen tutorial check the gallery that is below (visible under mozilla firefox).
+To start you just click [Add Disqus to your site](https://publishers.disqus.com/engage?utm_source=rmarkdown&utm_medium=Disqus-Footer) and follow the creation instructions. If you'd better follow print-screen tutorial check the gallery that is below (visible under Mozilla Firefox).
 
 <div id ="gallery">
 					<section id="two">
