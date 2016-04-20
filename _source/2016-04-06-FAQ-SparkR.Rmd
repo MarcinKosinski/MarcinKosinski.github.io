@@ -120,7 +120,7 @@ There is also extra `spark.driver.memory` option described in [Starting Up from 
 ## Q8: What are those all Spark contexts and how I can benefit from them?
 
 Spark context is required to run Spark itself and any other context is required to 
-conect Spark with its extensions. SQL Context enables to use Spark SQL which mainly 
+connect Spark with its extensions. SQL Context enables to use Spark SQL which mainly 
 means that one can write SQL statements instead of using Spark functions and that Spark SQL module will translate those statements for Spark.
 
 For example `hiveContext` can be created with
@@ -172,7 +172,7 @@ sparkR.stop()
 
 ## Q11: What can be potential Spark data source?
 
-One can connect to HiveServer by specifing `hiveContext`, but also one can read `csv` files to work with.
+One can connect to HiveServer by specifying `hiveContext`, but also one can read `csv` files to work with.
 This requires additional Spark package, a good start is spark-csv_2.10:1.0.3 package which can be downloaded
 from Spark packages repository [http://spark-packages.org/](http://spark-packages.org/)
 
@@ -218,8 +218,8 @@ df <- createDataFrame(sqlContext/hiveContext, RResultChanged)
 
 ## Q13: What about machine learning and MLlib?
 
-Spark provide great machine learning library called [MLlib](http://spark.apache.org/mllib/) with alghoritms based on stochastic gradient
-descent optimization so that Spark can be connected to stream data and use online machine learning methods. It is not possible to connect R with [MLlib](http://spark.apache.org/mllib/) library so far and the only machine learning alghoritms available from SparkR are [Gaussian and Binomial GLM models](http://spark.apache.org/docs/latest/sparkr.html#machine-learning).
+Spark provide great machine learning library called [MLlib](http://spark.apache.org/mllib/) with algorithms based on stochastic gradient
+descent optimization so that Spark can be connected to stream data and use online machine learning methods. It is not possible to connect R with [MLlib](http://spark.apache.org/mllib/) library so far and the only machine learning algorithms available from SparkR are [Gaussian and Binomial GLM models](http://spark.apache.org/docs/latest/sparkr.html#machine-learning).
 
 
 ## Q14: Where can I read more?! I want more examples!
