@@ -8,6 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
     I write about R Technologies, Survival Analysis and R Package Development.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://r-addict.com" # the base hostname & protocol for your site
+baseurlknitr: ""
 
 # Social links.
 # Replace the word 'example' with your username if you want to include the icon in the left sidebar
@@ -16,7 +17,7 @@ url: "http://r-addict.com" # the base hostname & protocol for your site
 twitter_username:     R_souvenirs  # Replace this with your Twitter username
 github_username:      MarcinKosinski  # Replace this with your GitHub username
 linkedin_username:    marcin-kosiński-81435aab  # Replace this with your LinkedIn username
-google_plus_username: 115677570336612137067  # Replace this with your Google+ username
+google_plus_username:  # 115677570336612137067  # Replace this with your Google+ username
 facebook_username:    DataFortuneTelling  # Replace this with your Facebook username
 dribbble_username:    # Replace this with your Dribbble username
 stackoverflow_usernumber: 3857701 # stackoverflow user numer :) my own invention
