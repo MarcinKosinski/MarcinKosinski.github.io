@@ -9,12 +9,14 @@ Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysi
 
 ## Talks and Conferences
 
+- 2016-04 Warsaw, Poland - [The 5th Intercollegiate Biotechnology Symposium](http://msb.symbioza.edu.pl/en/program/)
+   - 2x(4h Workshop) [R Tutorial for Biotechnologists](http://r-addict.com/SymbiozaV)
 - 2015-11 Budapest, Hungary - [BI Forum Conference 2015](https://budapestbi2015.sched.org/event/4JA8/archivist-managing-data-analysis-results) 
    - Talk [archivist: Managing Data Analysis Results](https://github.com/pbiecek/archivist/tree/gh-pages/files/archivist_BIFORUM.pdf)
 - 2015-10  Zakopane, Poland - [ISOBM 2015 Congress](http://isobm.org/index.php?option=com_content&view=article&id=138&Itemid=624) 
    - Poster [Applications of Statistical Methods to the Data from The Cancer Genome Atlas Study Available in the RTCGA Family of R Packages](https://github.com/RTCGA/RTCGA/raw/master/UseCases/MarcinKosinski.pdf)
 - 2015-09 Warsaw, Poland - [Codepot 2015](http://codepot.pl/#tutors) 
-   - Workshop [Data Mining + dplyr = data processing and analysis in R](http://grupawp.github.io/codepot-workshop-2015/)
+   - 4h Workshop [Data Mining + dplyr = data processing and analysis in R](http://grupawp.github.io/codepot-workshop-2015/)
 - 2015-05 Warsaw, Poland - [1st Team Data Analysis Marathon, Warsaw 2015](https://www.facebook.com/events/921016974586900/)
    - Role [co-organizer](https://www.facebook.com/events/921016974586900/)
 - 2015-03 Poznań, Poland - [8th International Conference of Contemporary Oncology](http://www.zwrotnikraka.pl/8-international-conference-contemporary-oncology-cancer-genomics-poznan/) 

@@ -8,13 +8,23 @@ layout: default
     <section>
         {% for post in site.posts limit:1 %}
             <header class="major">
+                   <a href="/" class="button icon fa-home">Home</a>
+                   <a href="/About.html" class="button icon fa-area-chart">About</a>
+                   <a href="/blog.html" class="button icon fa-archive">Blog</a>
+                   <a href="/pRojects.html" class="button icon fa-folder-open">pRojects</a>
+                   <br><br>
                 <h2>{{ post.title }}</h2>
                 <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
             </header>
 
-            <section>
-                {{ post.content }}
-            </section>
+                    <section>
+                        {{ post.excerpt }}
+                    </section>
+                    <footer>
+                        <ul class="actions">
+                            <li><a href="{{ post.url }}" class="button special">Read More</a></li>
+                        </ul>
+                    </footer>
         {% endfor %}
     </section>
     <section>
