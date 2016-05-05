@@ -128,3 +128,4 @@ pcaTCGA(BRCA.OV.HNSC.rnaseq.cancer,
 ```
 
 For more visualization examples visit [RTCGA project website](http://rtcga.github.io/RTCGA/Visualizations.html). If you have noticed any bugs or have any reflections please open an issue under [project's repository](https://github.com/RTCGA/RTCGA/issues/new) or post a comment on below Disqus panel. 
+

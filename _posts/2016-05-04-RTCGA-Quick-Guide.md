@@ -108,7 +108,7 @@ kmTCGA(BRCAOV.survInfo,
        break.time.by = 500)
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-7](figure/source/2016-05-04-RTCGA-Quick-Guide/unnamed-chunk-7-1.png)
+![plot of chunk unnamed-chunk-7](/figure/source/2016-05-04-RTCGA-Quick-Guide/unnamed-chunk-7-1.png)
 
 ### PCA Biplot
 
@@ -130,3 +130,4 @@ pcaTCGA(BRCA.OV.HNSC.rnaseq.cancer,
 ![plot of chunk unnamed-chunk-8](/figure/source/2016-05-04-RTCGA-Quick-Guide/unnamed-chunk-8-1.png)
 
 For more visualization examples visit [RTCGA project website](http://rtcga.github.io/RTCGA/Visualizations.html). If you have noticed any bugs or have any reflections please open an issue under [project's repository](https://github.com/RTCGA/RTCGA/issues/new) or post a comment on below Disqus panel. 
+
