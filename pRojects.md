@@ -29,7 +29,7 @@ title: p(R)ojects
 
 ## Zabbix Monitoring API Integration
 
-- [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/RZabbix)](http://cran.r-project.org/web/packages/RZabbix)[![Build Status](https://api.travis-ci.org/MarcinKosinski/RZabbix.png)](https://travis-ci.org/MarcinKosinski/RZabbix)[![Total Downloads](http://cranlogs.r-pkg.org/badges/grand-total/RZabbix?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/RZabbix)[![Github Issues](http://githubbadges.herokuapp.com/MarcinKosinski/RZabbix/issues.svg)](https://github.com/MarcinKosinski/RZabbix/issues) [RZabbix](https://github.com/MarcinKosinski/RZabbix)
+- [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/RZabbix)](http://cran.r-project.org/web/packages/RZabbix)[![Build Status](https://api.travis-ci.org/MarcinKosinski/RZabbix.png)](https://travis-ci.org/MarcinKosinski/RZabbix)[![Total Downloads](http://cranlogs.r-pkg.org/badges/grand-total/RZabbix?color=orange)](http://cranlogs.r-pkg.org/badges/grand-total/RZabbix)[![Github Issues](http://githubbadges.herokuapp.com/MarcinKosinski/RZabbix/issues.svg)](https://github.com/MarcinKosinski/RZabbix/issues) [RZabbix](http://r-addict.com/RZabbix/)
 
 ## Entropy based feature selection algorithms
 
