@@ -14,7 +14,7 @@ output:
     keep_md: true
 ---
 
-<a href="http://mi2.mini.pw.edu.pl:3838/CzasDojazdu/App/"><img src="/images/fulls/disqus_shiny.png" class="fit image"></a> Getting users feedback is always a pleasant moment. In most cases in World of Open Source we are creating tools and applications for people and we love to hear that someone thinks our (generally pet) project is useful. Mostly this moment is nicer than any paycheck.
+<a href="http://mi2.mini.pw.edu.pl:8080/CzasDojazdu/App/"><img src="/images/fulls/disqus_shiny.png" class="fit image"></a> Getting users feedback is always a pleasant moment. In most cases in World of Open Source we are creating tools and applications for people and we love to hear that someone thinks our (generally pet) project is useful. Mostly this moment is nicer than any paycheck.
 
 But how author can enable easy contact with him as the author of the project or application? I've seen home websites having special **contact** panel where authors provide e-mail address or links to specially prepared forums. I found that providing e-mail address isn't the best solution as people keep asking the same questions, not knowing they were asked and, what is even `WORSE`, not knowing they were already answered
 .
@@ -58,7 +58,7 @@ Finally you can click on the `Universal Code` option to gain a code that you sho
 This disqus code can be added as a plain HTML text to shinydashboard as in the following example (you can also copy code from this [gist](https://gist.github.com/MarcinKosinski/d1655939ba3666359ea74fd0cccc3963))
 
 
-{% highlight r %}
+```r
 library(shiny)
 library(shinydashboard)
 ui <- dashboardPage(
@@ -100,9 +100,9 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui, server)
-{% endhighlight %}
+```
 
 Now you can improve your shinydashboard with disqus panel as we have done to provide easier feedback collecting at our shinydashboard in [MI2](https://github.com/mi2-warsaw/) group where we present available rooms to rent in the desired localization with user constraints as price, room size and time to work.
-<a href="http://mi2.mini.pw.edu.pl:3838/CzasDojazdu/App/"><img src="/images/fulls/disqus_shiny.png" class="fit image"></a>
+<a href="http://mi2.mini.pw.edu.pl:8080/CzasDojazdu/App/"><img src="/images/fulls/disqus_shiny.png" class="fit image"></a>
 
 If you think I can improve my blog or this post please use Disqus at the end of this page :)!
