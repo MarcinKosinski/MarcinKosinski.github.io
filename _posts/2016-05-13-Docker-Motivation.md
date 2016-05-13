@@ -19,9 +19,9 @@ output:
 
 ## Docker Motivation
 
-Recently R world have been announced with the new R 3.3.0 version (which was a great occasion to release many R projects like [RTCGA](http://r-addict.com/2016/05/04/RTCGA-Quick-Guide.html)). This is great that R open source project continues to grow, but switching to new software versions should be done carefully, especially when working in a team of R developers.
+Recently R world have been announced with the new R 3.3.0 version (which was a great occasion to release many R projects like [RTCGA](http://r-addict.com/2016/05/04/RTCGA-Quick-Guide.html)). It is great that R open source project continues to grow, but switching to new software versions should be done carefully, especially when working in a team of R developers.
 
-It is almost a regular daily routine that each person developing an R pet project has various libraries and R itself versions, which can be checked with `devtools::session_info()`. This causes situations in which application work on one machine but not on the other (or works partially), and mistakenly it might seem that having the newest R and its libraries versions is the correct way of cooperation (NOT!).
+It is almost a daily routine that each person developing an R pet project has various libraries and R itself versions, which can be checked with `devtools::session_info()`. This causes situations in which application work on one machine but not on the other (or works partially), and mistakenly it might seem that having the newest R and its libraries versions is the correct way of cooperation (NOT!).
 
 In most cases it is not complicated to configure one machine to support one R application, but what if you move your R project to a machine that have configured Shiny Server that should handle dozens of R applications, developed by people that might now even know each others? 
 [Our team](https://github.com/orgs/mi2-warsaw/teams/wczasowicze) have stacked for a week after we've tried to publish our shiny application (that I wrote about it [here](http://r-addict.com/2016/04/20/Disqus-Shinydashboards.html)) due to server configurations for already working applications, but not for a one developed under new R 3.3.0. 
