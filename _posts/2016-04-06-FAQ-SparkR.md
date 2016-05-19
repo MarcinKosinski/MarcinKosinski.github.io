@@ -4,7 +4,7 @@ title: Answers to FAQ about SparkR for R users
 comments: true
 published: true
 author: Marcin Kosiński
-categories: [RTech]
+categories: [Rtech]
 output:
   html_document:
     mathjax:  default
@@ -41,9 +41,9 @@ From the Spark Overview we know that it is possible to use Spark from R without 
 By now, SparkR is distributed with Spark. So after you install Spark you will get SparkR package in the installation directory. This means that loading SparkR package will be possible from the `/R/lib` subdirectory of the directory in which Spark was installed with the usage of `lib.loc` parameter in `library()`
 
 
-```r
+{% highlight r %}
 library(SparkR, lib.loc = "/opt/spark/R/lib")
-```
+{% endhighlight %}
 
 Installation under Windows and OS is well described on this [r-bloggers post](http://www.r-bloggers.com/installing-and-starting-sparkr-locally-on-windows-os-and-rstudio/).
 
@@ -63,9 +63,9 @@ Explanation on [stackoverflow](http://stackoverflow.com/a/25485800/3857701)
 Assuming that the installation directory was `/opt/spark` one can run SparkR package in shell with
 
 
-```r
+{% highlight r %}
 /opt/spark/bin/sparkR
-```
+{% endhighlight %}
 
 where probably `/spark/` directory at your machine would like rather like `spark-ver-hadoop-ver/`.
 
@@ -78,9 +78,9 @@ start without user engagement. You can see this with the start information
 
 You can specify the number of executors and executor cores for Spark application with additional arguments
 
-```r
+{% highlight r %}
 /opt/spark/bin/sparkR --num-executors 5 --executor-cores 5
-```
+{% endhighlight %}
 
 
 ## Q7: How to start Spark application using SparkR from RStudio?
@@ -89,14 +89,14 @@ If you'd rather use RStudio to work with R frontend, which I really recommend, y
 SparkR with the non-default directory. Therefore you should get familiar with `lib.loc` parameter in `library()` function
 
 
-```r
+{% highlight r %}
 library(SparkR, lib.loc = "/opt/spark/R/lib")
-```
+{% endhighlight %}
 
 Then you will have to start Spark context and SQL context manually with
 
 
-```r
+{% highlight r %}
 # this is optional
 sparkEnvir <- list(spark.num.executors='5', spark.executor.cores='5')
 # initializing Spark context
@@ -104,7 +104,7 @@ sc <- sparkR.init(sparkHome = "/opt/spark",
                   sparkEnvir = sparkEnvir)
 # initializing SQL context
 sqlContext <- sparkRSQL.init(sc)
-```
+{% endhighlight %}
 
 There is also extra `spark.driver.memory` option described in [Starting Up from RStudio](http://spark.apache.org/docs/latest/sparkr.html#starting-up-from-rstudio).
 
@@ -117,16 +117,16 @@ means that one can write SQL statements instead of using Spark functions and tha
 For example `hiveContext` can be created with
 
 
-```r
+{% highlight r %}
 hiveContext <- sparkRHive.init(sc)
-```
+{% endhighlight %}
 
 and then one would be able to send SQL/HQL statements to HiveServer like
 
 
-```r
+{% highlight r %}
 SparkResult <- sql(hiveContext, "select statement")
-```
+{% endhighlight %}
 
 > Note that Spark should have been built with Hive support and more details on the difference between SQLContext and HiveContext can be found in the SQL programming guide
 
@@ -140,17 +140,17 @@ You can do it both ways. Yarn Cluster requires additional `master` parameter spe
 
 - shell
 
-```r
+{% highlight r %}
 /opt/spark/bin/sparkR --master yarn-client --num-executors 5 --executor-cores 5
-```
+{% endhighlight %}
 
 - RStudio
 
-```r
+{% highlight r %}
 sc <- sparkR.init(sparkHome = "/opt/spark", 
                   master = "yarn-client",
                   sparkEnvir = sparkEnvir)
-```
+{% endhighlight %}
 
 > Ensure that HADOOP_CONF_DIR or YARN_CONF_DIR points to the directory which contains the (client side) configuration files for the Hadoop cluster. 
 
@@ -161,9 +161,9 @@ Source: [Launching Spark on YARN](http://spark.apache.org/docs/latest/running-on
 There's nothing simpler
 
 
-```r
+{% highlight r %}
 sparkR.stop()
-```
+{% endhighlight %}
 
 
 ## Q11: What can be potential Spark data source?
@@ -174,20 +174,20 @@ from Spark packages repository [http://spark-packages.org/](http://spark-package
 
 - shell
 
-```r
+{% highlight r %}
 /opt/spark/bin/sparkR --packages com.databricks:spark-csv_2.10:1.0.3 --master yarn-client --num-executors 5 --executor-cores 5
-```
+{% endhighlight %}
 
 - RStudio
 
 
-```r
+{% highlight r %}
 sparkEnvir <- list(spark.num.executors='5', spark.executor.cores='5',
                    packages='com.databricks:spark-csv_2.10:1.0.3')
 # initializing Spark context
 sc <- sparkR.init(sparkHome = "/opt/spark", 
                   sparkEnvir = sparkEnvir)
-```
+{% endhighlight %}
 
 
 
@@ -198,18 +198,18 @@ No. Mainly you are using Spark functions, but called from R equivalents. You can
 But you can get data from Spark application with
 
 
-```r
+{% highlight r %}
 SparkR::collect(SparkResult) -> RResult
-```
+{% endhighlight %}
 
 use R function on collected dataset and send it back to the RDD Spark format, so called [SparkR DataFrames](A DataFrame is a distributed collection of data organized into named columns. It is conceptually equivalent to a table in a relational database or a data frame in R, but with richer optimizations under the hood.)
 
 
 
-```r
+{% highlight r %}
 operations_and_functions(RResult) -> RResultChanged
 df <- createDataFrame(sqlContext/hiveContext, RResultChanged)
-```
+{% endhighlight %}
 
 
 > A DataFrame is a distributed collection of data organized into named columns. It is conceptually equivalent to a table in a relational database or a data frame in R, but with richer optimizations under the hood.
