@@ -1,3 +1,9 @@
+To do
+
+- Create a subdomain kosinski.r-addict.com
+- Try to update website with syntax highlighter
+
+
 Credits
 
 - Possible to blog thanks to [yihui/knitr-jekyll](https://github.com/yihui/knitr-jekyll)

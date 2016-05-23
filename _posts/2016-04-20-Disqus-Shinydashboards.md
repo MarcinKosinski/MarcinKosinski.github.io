@@ -14,10 +14,10 @@ output:
     keep_md: true
 ---
 
-<a href="http://mi2.mini.pw.edu.pl:3838/CzasDojazdu/App/"><img src="/images/fulls/disqus_shiny.png" class="fit image"></a> Getting users feedback is always a pleasant moment. In most cases in World of Open Source we are creating tools and applications for people and we love to hear that someone thinks our (generally pet) project is useful. Mostly this moment is nicer than any paycheck.
+<a href="http://mi2.mini.pw.edu.pl:3838/CzasDojazdu/App/"><img src="/images/fulls/disqus_shiny.png" class="fit image"></a> Getting users feedback is always a pleasant moment. In most cases in World of Open Source we are creating tools and applications for people and we love to hear that someone thinks our (generally pet) project is useful. Mostly this moment is nicer than any paycheck. Check this post to find out how to provide easy interface for collecting the user feedback!
 
-But how author can enable easy contact with him as the author of the project or application? I've seen home websites having special **contact** panel where authors provide e-mail address or links to specially prepared forums. I found that providing e-mail address isn't the best solution as people keep asking the same questions, not knowing they were asked and, what is even `WORSE`, not knowing they were already answered
-.
+But how author can enable easy contact with him as the author of the project or application? I've seen home websites having special **contact** panel where authors provide e-mail address or links to specially prepared forums. I found that providing e-mail address isn't the best solution as people keep asking the same questions, not knowing they were asked and, what is even `WORSE`, not knowing they were already answered.
+
 Sometimes it's good to use **Issue** panel at the GitHub repository of the project but this works mostly for packages development and gathering users requests about improving bugs. What if I have prepared shiny dashboard and I would not like to have application under one URL and discussion panel under other (Issues at GitHub repository, forum or Google group)? I would like to have an application and panel in one place, preferably within the application. `This is possible!`
 
 I have found a great and easy to implement solution to this challenge. It consists of a few clicks and one copy and paste operation. So it's a standard in the present reality of [StackOverflow](http://stackoverflow.com/). 
