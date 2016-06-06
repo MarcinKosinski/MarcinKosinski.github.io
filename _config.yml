@@ -15,7 +15,7 @@ baseurlknitr: "/"
 # Replace the word 'example' with your username if you want to include the icon in the left sidebar
 # Delete the word 'example' if you don't want to include the icon in the left sidebar
 
-twitter_username:     R_souvenirs  # Replace this with your Twitter username
+twitter_username:     kosinski_rblog  # Replace this with your Twitter username
 github_username:      MarcinKosinski  # Replace this with your GitHub username
 linkedin_username:    marcin-kosiński-81435aab  # Replace this with your LinkedIn username
 google_plus_username:  # 115677570336612137067  # Replace this with your Google+ username
