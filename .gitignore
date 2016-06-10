@@ -3,3 +3,7 @@ _site/
 .Rproj*
 .Rproj.user
 ClientID_and_ClientSecret.rda
+subscribers.csv
+.RData
+.Rhistory
+_source/output_dir/
