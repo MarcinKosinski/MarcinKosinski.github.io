@@ -7,3 +7,6 @@ subscribers.csv
 .RData
 .Rhistory
 _source/output_dir/
+.httr-oauth
+_source/github_token.rda
+_source/password.rda
