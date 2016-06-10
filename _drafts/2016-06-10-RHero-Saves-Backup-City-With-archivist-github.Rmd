@@ -1,0 +1,183 @@
+---
+layout: post
+title: R Hero saves Backup City with archivist and GitHub
+comments: true
+published: true
+author: Marcin Kosiński
+categories: [Rreproducibility]
+output:
+  html_document:
+    mathjax:  default
+    fig_caption:  true
+    toc: true
+    section_numbering: true
+    keep_md: true
+    css: ggsci.css
+---
+```{r include = FALSE}
+library(knitr)
+opts_chunk$set(
+	comment = "",
+	fig.width = 12, 
+	message = FALSE,
+	warning = FALSE,
+	tidy.opts = list(
+		keep.blank.line = TRUE,
+		width.cutoff = 150
+		),
+	options(width = 150),
+	eval = FALSE
+)
+```
+<img src="images/fulls/archivist_github.png" class="fit image">Have you ever suffered because of the impossibility of reproducing graphs, tables or analysis results in R? Have you ever bothered yourself for not being able to share R objects (i.e. plots or final analysis models) within your reports, posters or articles? Or maybe simply you have too many objects you can’t manage to store in a convenient and handy way? Now you can share partial results of analysis, provide hooks to valuable R objects within articles, manage analysis results and restore objects’ pedigree with [archivist](http://pbiecek.github.io/archivist/Posts.html) package and it’s extension [archivist.github](http://r-addict.com/archivist.github/). All automatically through [GitHub](https://github.com/) without closing RStudio. If you are tired of archiving results by yourself, then read how you can became an R Hero with [archivist.github](http://r-addict.com/archivist.github/) package power.
+
+# R Hero archiving power
+
+Recently I've visited Backup City, a data analysis mecca in the middle of Reproducible Research RLand. That's where I ovearheared a feverish discussion between R Hero and commissar O'Rdon. You can read the story of their meeting at the opening comic.
+
+```{r, echo=FALSE}
+library(archivist.github)
+load("github_token.rda");load("password.rda")
+if (file.exists("RHero/gallery")) {
+deleteLocalRepo(repoDir = 'RHero', deleteRoot = TRUE)
+deleteGitHubRepo(repo = "RHero", github_token = github_token, user = "archivistR", deleteRoot = TRUE)
+}
+```
+
+# archivist.gitub: archivist and GitHub integration
+
+archivist.github is package with tools for archiving, managing and sharing R objects via GitHub and is the extension of the archivist. You can install package from [CRAN](https://cran.r-project.org/web/packages/archivist.github/index.html)
+
+```{r, eval = FALSE}
+install.packages('archivist.github')
+```
+
+I have prepared a workflow graph to visualize functionalities of archivist.github
+
+<img src="images/fulls/archivist_github_workflow.png" class="fit image">
+
+and provide explanation of core powers in this post.
+
+After you create a GitHub developer application (the process is described at [archivist.github: 2.1 OAuth open autorization](http://r-addict.com/archivist.github/#21_oauth_open_autorization), set: Homepage URL - http://github.com, Authorization callback URL - http://localhost:1410) you will be able to automatically create repositories on GitHub from R console.
+Below is an example on how to authorise with GitHub API (using your application Client ID and Client Secret), create a GitHub repository with [archivist-like Repository](http://pbiecek.github.io/archivist/staticdocs/Repository.html) and automatically archive R object on GitHub
+
+```{r, cache=TRUE}
+# I saved some variables earlier 
+# no to provide them publicly
+load("github_token.rda");load("password.rda")
+
+library(archivist.github)
+# github_token <- authoriseGitHub(ClientID, ClientSecret,
+#                                 scope = c("public_repo", "delete_repo"))
+# repository creation
+createGitHubRepo(repo = "RHero", user = "archivistR", 
+                 password = "password", default = TRUE)
+# -> https://github.com/archivistR/RHero
+
+# parameters can be set globally,
+# so you will not have to specify 
+# them for each call
+invisible(aoptions("password", password))
+aoptions("user", "archivistR") 
+aoptions("repo", "RHero")
+# archiving on GitHub
+archive(iris, alink = TRUE)
+```
+
+<img src="images/fulls/github_R.jpg" class="fit image">
+
+One can check that the artifact is really on GitHub and that the [commit was performed](https://github.com/archivistR/RHero/commits/master) (with great help of [git2r](https://github.com/ropensci/git2r) package)
+
+```{r}
+# sometimes GitHub need more 
+# time to react
+Sys.sleep(60)
+# show archived objects with their hashes
+archivist::showRemoteRepo()
+# one can check how many commits have been performed so far
+length(
+   jsonlite::fromJSON(
+      rawToChar(
+httr::GET('https://api.github.com/repos/archivistR/RHero/commits')$content)
+      )$sha
+)
+```
+
+Each object (referred as [artifact](http://pbiecek.github.io/archivist/staticdocs/archivist-package.html)) is archived with it's metadata and [md5hash](http://pbiecek.github.io/archivist/staticdocs/md5hash.html) in case someone would like to [restore or search for archived objects](http://r-addict.com/archivist.github/#23_archiving_and_exploring_example) within [Repository](http://pbiecek.github.io/archivist/staticdocs/Repository.html).
+
+# Partial results archiving and objects’ pedigree restoration
+
+[We](https://github.com/pbiecek/archivist/graphs/contributors) have prepared extended version of [pipe - %>%](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html) operator [%a%](http://pbiecek.github.io/archivist/staticdocs/magrittr.html) so that every partial result of analysis workflow can be archived. Below is an example of workflow archiving for [RTCGA](http://rtcga.github.io/RTCGA/) (about which I wrote [here](http://r-addict.com/2016/05/04/RTCGA-Quick-Guide.html)) RNASeq data (genes' expression) (broader example can be find [here](http://r-addict.com/archivist.github/#3_advanced_example_with_rtcga)) and it's pedigree restoration
+
+```{r}
+# information about genes' expressions
+library(RTCGA.rnaseq); data(BRCA.rnaseq)
+BRCA.rnaseq %a%
+    select(`TP53|7157`, 
+           bcr_patient_barcode) %a%
+    # bcr_patient_barcode contains a key to 
+    # merge patients between various datasets
+    rename(TP53 = `TP53|7157`) %a%
+    filter(substr(bcr_patient_barcode, 
+                  14, 15) == "01" ) -> 
+    # 01 at the 14-15th position tells 
+    # these are cancer sample
+    BRCA.rnaseq.TP53
+
+# give hooks to objects
+ahistory(BRCA.rnaseq.TP53, format = "kable",
+         alink = TRUE ) 
+# it uses global user and repo
+# if they are not specified
+```
+
+Column with `[[env]]` is the object before transformations. We are working on using original names for objects in [this issue](https://github.com/pbiecek/archivist/issues/269).
+
+This operation does not archive objects automatically on GitHub as this is functionality from base archivist package. One have to upload objects with
+
+```{r, echo=1}
+pushGitHubRepo()
+Sys.sleep(60)
+```
+```{r}
+# one can check how many commits have been performed so far
+length(
+   jsonlite::fromJSON(
+      rawToChar(
+httr::GET('https://api.github.com/repos/archivistR/RHero/commits')$content)
+      )$sha
+)
+```
+
+# Overload `print()` to use `archive()`
+
+After global parameters specification (aoptions() function sets 'user', 'repo', and 'password' parameters for each archivist.github and archivist function globally) we don't have to use `archive` function after each call to provide hooks in rmarkdown reports. We can overload `print()` function for specific classes so that after printing objects will be also evaluated with `archive` function.
+
+```{r}
+addHooksToPrintGitHub(class = "lm")
+```
+
+```{r}
+pld <- aread("MarcinKosinski/Museum/")
+(lm.D9 <- lm(weight ~ group, data = pld))
+(lm.D90 <- lm(weight ~ group - 1, data = pld))
+```
+
+This is the GitHub equivalent for loval archiving with [addHooksToPrint](http://pbiecek.github.io/archivist/staticdocs/addHooksToPrint.html)
+
+# [Feedback and Notes](http://marcinkosinski.github.io/archivist.github/#6_feedback_and_notes)
+
+If you have any comments or user request, please see [Feedback and Notes](http://marcinkosinski.github.io/archivist.github/#6_feedback_and_notes) section to be aware of our future plans.
+
+More examples can be checked at [archivist.github Tutorial](http://r-addict.com/archivist.github/) or you can learn more during [@pbiecek]() talk [How to use the archivist package to boost reproducibility of your research](http://schedule.user2016.org/event/7BYx/how-to-use-the-archivist-package-to-boost-reproducibility-of-your-research) at [useR2016 Conference](schedule.user2016.org/).
+
+If you'd like to meet more R Heroes then restore message that was archived for commisar O'Rdon with
+```{r, eval = FALSE}
+# library(archivist.github)
+cat(aread("MarcinKosinski/archivist.github/eRum2016/010e596"))
+```
+
+
+# Thanks
+
+Paintings were made by [pedzlenie](https://pedzlenie.github.io).
