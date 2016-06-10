@@ -2,3 +2,4 @@ _site/
 .sass-cache/
 .Rproj*
 .Rproj.user
+ClientID_and_ClientSecret.rda
