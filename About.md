@@ -9,6 +9,8 @@ Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysi
 
 ## Talks and Conferences
 
+- 2016-06 Gdańsk, Poland - [Academic Data Science #1](http://www.meetup.com/Academic-Data-Science/events/231213859/)
+   - 5h R semi-advanced Workshop for Mathematicians [Valuable Variables Selection & Binary Classification Methods](http://grupawp.github.io/pg-Rworkshop-2016/)
 - 2016-04 Warsaw, Poland - [The 5th Intercollegiate Biotechnology Symposium](http://msb.symbioza.edu.pl/en/program/)
    - 2x(4h Workshop) [R Tutorial for Biotechnologists](http://r-addict.com/SymbiozaV)
 - 2015-11 Budapest, Hungary - [BI Forum Conference 2015](https://budapestbi2015.sched.org/event/4JA8/archivist-managing-data-analysis-results) 
