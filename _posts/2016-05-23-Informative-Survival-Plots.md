@@ -4,7 +4,7 @@ title: Survival plots have never been so informative
 comments: true
 published: true
 author: Marcin Kosiński
-categories: [RSurvival]
+categories: [Biostatistics]
 output:
   html_document:
     mathjax:  default

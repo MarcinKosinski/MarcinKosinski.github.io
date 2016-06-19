@@ -4,7 +4,7 @@ title: RTCGA factory of R packages - Quick Guide
 comments: true
 published: true
 author: Marcin Kosiński
-categories: [Rbio]
+categories: [Biostatistics]
 output:
   html_document:
     mathjax:  default

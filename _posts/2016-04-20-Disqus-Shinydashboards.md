@@ -4,7 +4,7 @@ title: Improve your shiny dashboard with Disqus panel
 comments: true
 published: true
 author: Marcin Kosiński
-categories: [Rshiny]
+categories: [Shiny]
 output:
   html_document:
     mathjax:  default
