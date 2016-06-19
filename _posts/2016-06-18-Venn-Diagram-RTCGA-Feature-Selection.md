@@ -70,7 +70,7 @@ Function `coef` extracts coefficients for fitted model. Argument `s` specifies f
 plot(cvfit)
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-5](/figure/source/2016-06-19-Venn-Diagram-RTCGA-Feature-Selection/unnamed-chunk-5-1.png)
+![plot of chunk unnamed-chunk-5](/figure/source/2016-06-18-Venn-Diagram-RTCGA-Feature-Selection/unnamed-chunk-5-1.png)
 
 [Discussion about standardization for LASSO can be found here](http://stats.stackexchange.com/questions/86434/is-standardisation-before-lasso-really-necessary). I normally don't do this, since I work with streaming data, for which checking assumptions, model diagnostics and standardization is problematic and is still a rapid field of research.
 
@@ -127,7 +127,7 @@ The history of Boruta decisions of rejecting and accepting features can be seen 
 plotImpHistory(Boruta.model)
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-9](/figure/source/2016-06-19-Venn-Diagram-RTCGA-Feature-Selection/unnamed-chunk-9-1.png)
+![plot of chunk unnamed-chunk-9](/figure/source/2016-06-18-Venn-Diagram-RTCGA-Feature-Selection/unnamed-chunk-9-1.png)
 
 
 # FSelectorRcpp::information_gain
@@ -213,5 +213,3 @@ partitions[all.algorithms, ]
 {% endhighlight %}
 
 Do you have any comments about the diagram or the unbelievable result that only 1 variable overlaps all 3 algorithms? Maybe some algorithms can be improved? Is this the case of random nature of `cv.glmnet` or `Boruta`? Feel free to leave your comments on the Disqus panel below.
-
-

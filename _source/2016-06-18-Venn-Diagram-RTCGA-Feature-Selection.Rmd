@@ -212,5 +212,3 @@ partitions[all.algorithms, ]
 ```
 
 Do you have any comments about the diagram or the unbelievable result that only 1 variable overlaps all 3 algorithms? Maybe some algorithms can be improved? Is this the case of random nature of `cv.glmnet` or `Boruta`? Feel free to leave your comments on the Disqus panel below.
-
-
