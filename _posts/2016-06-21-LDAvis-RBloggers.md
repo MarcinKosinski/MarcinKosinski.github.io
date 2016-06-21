@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LDAVis Show Case on R-Bloggers
+title: LDAvis Show Case on R-Bloggers
 comments: true
 published: true
 author: Marcin Kosiński
