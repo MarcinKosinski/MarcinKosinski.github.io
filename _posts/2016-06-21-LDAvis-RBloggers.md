@@ -121,7 +121,7 @@ archivist::aread('MarcinKosinski/Museum/fa93abf0ff93a7f6f3f0c42b7935ad4d') -> fi
 {% endhighlight %}
 
 
-# LDAVis use case
+# LDAvis use case
 
 If you google out properly you'll wind out that LDAvis description is
 
