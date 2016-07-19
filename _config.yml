@@ -1,6 +1,6 @@
 # Site settings
 
-title: kosinski.r-addict.com # Title of your site
+title: R Addict Blog #kosinski.r-addict.com # Title of your site
 email: m.p.kosinski@gmail.com # Your contant email
 name: "http://r-addict.com"
 
@@ -28,6 +28,8 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  
+highlighter: rouge
 
 
 # Disqus comments:
@@ -47,7 +49,8 @@ author:
 
 gems:
   - jekyll-feed  
-  
+  - rouge
+
 # Permalinks
 permalink: /:year/:month/:day/:title.html
 
