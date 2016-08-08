@@ -9,6 +9,9 @@ Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysi
 
 ## Talks and Conferences
 
+- 2016-06 Stanford, CA, USA - [BioC 2016: Where Software and Biology Connect](http://bioconductor.org/help/course-materials/2016/BioC2016/)
+   - Ligthtning Talk [Integrating TCGA Data - RTCGA Workflow](http://rtcga.github.io/RTCGA/BioC2016/)
+
 - 2016-06 Gdańsk, Poland - [Academic Data Science #1](http://www.meetup.com/Academic-Data-Science/events/231213859/)
    - 5h R semi-advanced Workshop for Mathematicians [Valuable Variables Selection & Binary Classification Methods](http://grupawp.github.io/pg-Rworkshop-2016/)
 - 2016-04 Warsaw, Poland - [The 5th Intercollegiate Biotechnology Symposium](http://msb.symbioza.edu.pl/en/program/)
