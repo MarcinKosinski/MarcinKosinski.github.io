@@ -9,6 +9,9 @@ Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysi
 
 ## Talks and Conferences
 
+- 2016-09 Cracow, Poland - [10th Cracow R Enthusiasts Meetup](http://erkakrakow.pl/index.php/spotkania/24-10-spotkanie-entuzjastow-r-w-krakowie)
+   - Presentation Rocker: explanation and motivation for Docker containers usage in applications development [by R user, for R users]
+
 - 2016-06 Stanford, CA, USA - [BioC 2016: Where Software and Biology Connect](http://bioconductor.org/help/course-materials/2016/BioC2016/)
    - Ligthtning Talk [Integrating TCGA Data - RTCGA Workflow](http://rtcga.github.io/RTCGA/BioC2016/)
 
