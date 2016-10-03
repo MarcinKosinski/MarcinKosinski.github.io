@@ -1,0 +1,60 @@
+---
+layout: post
+title: Rocker - explanation and motivation for Docker containers usage in applications development
+subtitle: By R User, For R Users
+date: 2016-10-03 8:00:00
+comments: true
+published: true
+author: Marcin Kosiński
+categories: [Community Posts]
+output:
+  html_document:
+    mathjax:  default
+    fig_caption:  true
+    toc: true
+    section_numbering: true
+    keep_md: true
+---
+```{r include = FALSE}
+library(knitr)
+opts_chunk$set(
+	comment = "",
+	fig.width = 12, 
+	message = FALSE,
+	warning = FALSE,
+	tidy.opts = list(
+		keep.blank.line = TRUE,
+		width.cutoff = 150
+		),
+	options(width = 150),
+	eval = FALSE
+)
+```
+<img src="/images/fulls/docker2.png" class="fit image"> **What is R?** I was asked at the end of my presentation on the [10th Cracow R Users Meetup](http://www.meetup.com/Cracow-R-User-Group/events/233624341/) that was held last Friday (30.09.2016). I felt strange but absolutely confirmed that **R is the language of Data Science and is designed to performed the statistical data analysis**. Later I found out that few of listeners came to the meetup to listen more about Docker than R, as my topic was **Rocker - explanation and motivation for Docker containers usage in applications development**. In this post I present the overview of my presentation. If you are not familiar with using Dockers in R applications development, then this is a must read for you!
+
+# Presentation
+
+The presentation is available at my [website](http://r-addict.com/eRka10/#/) and (as many people ask) was prepared with the help of [revealjs::revealjs_presentation](http://rmarkdown.rstudio.com/revealjs_presentation_format.html), a great tool from [RStudio](https://github.com/rstudio/revealjs). The front page wasn't entirely specified in regular [rmarkdown](http://rmarkdown.rstudio.com/) YAML, as I put few [font awesome icons](http://fontawesome.io/icons/) so I think you would also like to see the code of the presentation at my [GitHub's repository](https://github.com/MarcinKosinski/eRka10/blob/master/index.Rmd).
+
+
+<img src="/images/fulls/erka10_2.jpg" class="fit image">
+
+# Overview
+
+Below I present the description of the presentation.
+
+As R users we mostly perform analysis, produce reports and create interactive shiny applications. Those are rather one-time performances. Sometimes, however, the R developer enters the world of the real software development, where R applications should be built once and then distributed and maintained on many machines.
+
+What are the best practices in distributing the software? How can we ensure the code will always run the same regardless of its environment? Is there a way to skip the manual and long-lasting installation process if the software have been built once? Why using Docker in shipping the software is crucial?
+
+Docker is the world’s leading software containerization platform. Docker containers wrap a piece of software in a complete file system that contains everything needed to run: code, runtime, system tools, system libraries – anything that can be installed on a server. This guarantees that the software will always run the same, regardless of its environment.
+
+In my presentation I'll give a brief introduction to Docker and provide a full motivation for using this technology in a regular R work. I strongly belief Docker can improve the data analysis to be more reproducible and can facilitate the software development so that the distribution and maintenance can be easier.
+
+The presentation will be said by the person with the R background, assuming that the audience is also experienced in R. Get motivated: http://r-addict.com/2016/05/13/Docker-Motivation.html
+
+ ### Acknowledgement
+ 
+ I would like to say thank you to [Zygmunt Zawadzki](https://github.com/zzawadz) and [Bartosz Sękiewicz](https://github.com/bsekiewicz), organizators of this meetup and [Marta Karaś](), the second speaker with a great presentation on *Convex Clustering and Biclustering with application in R* that can be found [here](https://rawgit.com/statsox/Convex-Clustering-slides/master/slides.html#/)
+ 
+ <img src="/images/fulls/erka10_1.jpg" class="fit image">
