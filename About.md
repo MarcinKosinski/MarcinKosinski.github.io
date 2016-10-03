@@ -1,6 +1,5 @@
 ---
 layout: page
-title: About
 ---
 <a href="http://stackexchange.com/users/4713209">
 <img src="http://stackexchange.com/users/flair/4713209.png" width="208" height="58" alt="profile for Marcin Kosiński on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Marcin Kosiński on Stack Exchange, a network of free, community-driven Q&amp;A sites">
@@ -10,7 +9,7 @@ Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysi
 ## Talks and Conferences
 
 - 2016-09 Cracow, Poland - [10th Cracow R Enthusiasts Meetup](http://erkakrakow.pl/index.php/spotkania/24-10-spotkanie-entuzjastow-r-w-krakowie)
-   - Presentation Rocker: explanation and motivation for Docker containers usage in applications development [by R user, for R users]
+   - Presentation [Rocker: explanation and motivation for Docker containers usage in applications development [by R user, for R users]](http://r-addict.com/eRka10)
 
 - 2016-06 Stanford, CA, USA - [BioC 2016: Where Software and Biology Connect](http://bioconductor.org/help/course-materials/2016/BioC2016/)
    - Ligthtning Talk [Integrating TCGA Data - RTCGA Workflow](http://rtcga.github.io/RTCGA/BioC2016/)
@@ -31,3 +30,4 @@ Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysi
    - Poster [Applications of RTCGA package for The Cancer Genome Atlas data integration](https://github.com/RTCGA/RTCGA/raw/master/UseCases/BigDataInGenomics.pdf)
 - 2014-10 Poznań, Poland - [Polish R Users Conference 2014, Poznań Poland](http://www.estymator.ue.poznan.pl/pazur/) 
    - Talk [Archiving artifacts with archivist](https://github.com/MarcinKosinski/Museum/blob/master/pazur_kosinski.pdf)
+   
