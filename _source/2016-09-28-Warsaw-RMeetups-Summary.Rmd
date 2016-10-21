@@ -4,7 +4,7 @@ title: Warsaw R Enthusiast Meetups Season Finale
 comments: true
 published: true
 author: Marcin Kosiński
-categories: [Community Posts]
+categories: [Meetups and conferences]
 output:
   html_document:
     mathjax:  default

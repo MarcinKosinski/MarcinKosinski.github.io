@@ -4,7 +4,7 @@ title: What Every R Package Must (REALLY) Contain? An Example on the eRum2016 Pa
 comments: true
 published: true
 author: Marcin Kosiński
-categories: [Conferences, Development]
+categories: [Meetups and conferences, Development]
 output:
   html_document:
     mathjax:  default

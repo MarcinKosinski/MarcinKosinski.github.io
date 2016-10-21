@@ -4,7 +4,7 @@ title: R 3.3.0 is another motivation for Docker
 comments: true
 published: true
 author: Marcin Kosiński
-categories: [Technologies]
+categories: [Rocker]
 output:
   html_document:
     mathjax:  default

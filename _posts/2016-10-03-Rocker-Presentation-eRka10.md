@@ -6,7 +6,7 @@ date: 2016-10-03 8:00:00
 comments: true
 published: true
 author: Marcin Kosiński
-categories: [Community Posts]
+categories: [Rocker, Meetups and conferences]
 output:
   html_document:
     mathjax:  default

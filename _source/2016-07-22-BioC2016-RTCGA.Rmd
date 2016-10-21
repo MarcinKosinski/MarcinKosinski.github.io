@@ -4,7 +4,7 @@ title: BioC 2016 Conference Overview and Few Ways of Downloading TCGA Data
 comments: true
 published: true
 author: Marcin Kosiński
-categories: [Biostatistics]
+categories: [Biostatistics, Meetups and conferences]
 output:
   html_document:
     mathjax:  default

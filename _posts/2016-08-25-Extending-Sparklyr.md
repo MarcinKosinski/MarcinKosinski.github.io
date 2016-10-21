@@ -4,7 +4,7 @@ title: Extending sparklyr to Compute Cost for K-means on YARN Cluster with Spark
 comments: true
 published: true
 author: Marcin Kosiński
-categories: [Technologies, Clustering]
+categories: [Spark, Clustering]
 output:
   html_document:
     mathjax:  default

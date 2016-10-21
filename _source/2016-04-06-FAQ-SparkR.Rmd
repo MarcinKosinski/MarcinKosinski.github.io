@@ -4,7 +4,7 @@ title: Answers to FAQ about SparkR for R users
 comments: true
 published: true
 author: Marcin Kosiński
-categories: [Technologies]
+categories: [Spark]
 output:
   html_document:
     mathjax:  default
