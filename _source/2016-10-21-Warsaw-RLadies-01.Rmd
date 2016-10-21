@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Beauty Face of R - Warsaw R Ladies
+title: The Beauty Face of R - Warsaw R-Ladies
 date: 2016-10-21 12:00:00
 comments: true
 published: true
@@ -29,9 +29,9 @@ opts_chunk$set(
 	eval = FALSE
 )
 ```
-<img src="/images/fulls/rladies1.JPG" class="fit image"> First [Warsaw R Ladies Workshops](https://github.com/mi2-warsaw/RLadies/) were held yesterday! Over 100 R Ladies have registered for the event! In this post I present notes from this meeting and provide some pictures of the beauty part of R. You can also learn a bit about the gender gap in the R community.
+<img src="/images/fulls/rladies1.JPG" class="fit image"> First [Warsaw R-Ladies Workshops](https://github.com/mi2-warsaw/RLadies/) were held yesterday! Over 100 R-Ladies have registered for the event! In this post I present notes from this meeting and provide some pictures of the beauty part of R. You can also learn a bit about the gender gap in the R community.
 
-[Heather Turner](http://www.heatherturner.net/) has addressed the gender gap during her [presentation](https://github.com/eRum2016/Presentations-participants) at the [European R Useers Meeting](http://erum.ue.poznan.pl/). [We](https://github.com/orgs/mi2-warsaw/teams/ser) have also noticed this gap on [Warsaw R Enthusiasts meetups](http://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/) - the gap can be seen on [Olga's Mierzwa-Sulima](http://github.com/olgamie) (organizer) graph. That's why Olga planned to organize workshops for R Ladies.
+[Heather Turner](http://www.heatherturner.net/) has addressed the gender gap during her [presentation](https://github.com/eRum2016/Presentations-participants) at the [European R Useers Meeting](http://erum.ue.poznan.pl/). [We](https://github.com/orgs/mi2-warsaw/teams/ser) have also noticed this gap on [Warsaw R Enthusiasts meetups](http://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/) - the gap can be seen on [Olga's Mierzwa-Sulima](http://github.com/olgamie) (organizer) graph. That's why Olga planned to organize workshops for R-Ladies.
 <img src="/images/fulls/rladies_gender_gap.png" class="fit image">
 
 After the opening, where we all gathered in one lecture room to listen to the presentation of our sponsor [DaftCode](http://daftcode.pl/) (do you already know their [Finger Hero](https://www.youtube.com/watch?v=ZnKyDRCDsxE) game?), we all splitted to 7 small groups to start workshops. We prepared 4 groups with R basics and 3 groups with R ggplot2 visualizations. Sizes of groups varied from 5 to 12 people - with smaller groups is it easier for tutor to make a contact with the audience. 
