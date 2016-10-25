@@ -35,7 +35,7 @@ opts_chunk$set(
 
 One of my favourite fast 5-minutes long R game is `chaining R packages`. One person says the name of an R package and the next person needs to say the name of an R package that starts on a letter on which the previous package has finished (and you can't use packages that were already mentioned by previous players): example
 
-```{r}
+```{r, eval=FALSE}
 dplyr -> ROCR -> rpart -> tm -> mstate -> e1071
 ```
 

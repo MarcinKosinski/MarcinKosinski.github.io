@@ -26,12 +26,6 @@ One of my favourite fast 5-minutes long R game is `chaining R packages`. One per
 dplyr -> ROCR -> rpart -> tm -> mstate -> e1071
 {% endhighlight %}
 
-
-
-{% highlight text %}
-Error in eval(expr, envir, enclos): object 'dplyr' not found
-{% endhighlight %}
-
 `e1071` always finishes the game :) so instead of looking after the last character of a previous package name you can look after the last letter. Don't open browser with CRAN archives!
 
 ## Guess which R package you are
