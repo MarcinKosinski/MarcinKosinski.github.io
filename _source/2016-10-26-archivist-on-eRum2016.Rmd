@@ -1,0 +1,95 @@
+---
+layout: post
+title: News from archivist 2.0 on eRum2016 conference
+date: 2016-10-26 11:00:00
+comments: true
+published: true
+author: Marcin Kosiński
+categories: [Reproducible research, Meetups and conferences]
+output:
+  html_document:
+    mathjax:  default
+    fig_caption:  true
+    toc: true
+    section_numbering: true
+    keep_md: true
+---
+```{r include = FALSE}
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(knitr)
+opts_chunk$set(
+	comment = "",
+	fig.width = 12, 
+	message = FALSE,
+	warning = FALSE,
+	tidy.opts = list(
+		keep.blank.line = TRUE,
+		width.cutoff = 80
+		),
+	options(width = 80),
+	eval = TRUE
+)
+```
+<img src="/images/fulls/archivist2_0.png" class="fit image"> Ten days ago [eRum2016](http://erum.ue.poznan.pl/) conference (European R Users Meeting 2016) has finished. It was a huge event that attracted over 250 attenders, both from academia and business. Meeting was a great opportunity to listen to amazing keynotes like Heather Turner, Katarzyna Stapor, Rasmus Bååth, Jakub Glinka, Ulrike Grömping, Przemyslaw Biecek, Romain Francois, Marek Gagolewski, Matthias Templ and Katarzyna Kopczewska. Big thank you goes to the whole organizing committee and dr Maciej Beręsewicz (head) especially! There were 10 workshops, 2 packages sessions, 2 data workflow sessions, 3 methodolody sessions, 1 BioR session, 2 business sessions, lightnings talks, a poster session and of course a great welcome paRty. **I could not miss a chance to present news from the last release (ver 2.0) of [ours](https://github.com/pbiecek/archivist/graphs/contributors) [archivist](https://cran.r-project.org/web/packages/archivist/index.html) package.**
+
+<img src="/images/fulls/erum_front_cover_small.jpg" class="left image"> From the eRum'2 [Book of Abstracts](https://github.com/eRum2016/Book-of-abstracts/) you can learn that: Open science needs not only reproducible research but also accessible
+final and partial results. During the speech I will present the most
+valuable applications of the archivist package. The archivist is
+an R package for data analysis results management, which helps
+in managing, sharing, storing, linking and searching for R
+objects. The archivist package automatically retrieves the
+object's meta-data and creates a rich structure that allows for easy
+management of calculated R objects. The archivist
+package extends the reproducible research paradigm by creating new ways
+to retrieve and validate previously calculated objects. These
+functionalities also result in a variety of opportunities such as:
+sharing R objects within reports/articles by adding hooks to
+R objects in table/figure captions; interactive exploration of
+object repositories; caching function calls; retrieving object's
+pedigree along with information on how the object was created; automated
+tracking of performance of models.
+
+## archivist 2.0: (News from) Managing Data Analysis Results Toolkit 
+
+My presentation about new features and a present architecture of the archivist package is available on the [list of all eRum2016 presentations](https://github.com/eRum2016/Presentations-participants). If it's hard to find it, then use this link [http://r-addict.com/eRum2016/#/](http://r-addict.com/eRum2016/#/).
+
+I have shown that there are some requirements for data analysis results: easy to access (for further processing), verifiable, reproducible. However, the reproducibility from scratch is not always possible, so one could improve results' accedsibility.. The reproducibility is sometimes impossible due to different
+
+- base version of R
+- versions of R packages
+- versions of dependent software
+- global variables
+
+or due to the
+
+- limitation of the original data
+- insufficient computational machinery
+
+Examples: [<i class='fa fa-stack-overflow'></i> Can't gather tibble in R](http://stackoverflow.com/questions/39231807/cant-gather-tibble-in-r), [<i class='fa fa-stack-overflow'></i> Can't install git2r nor devtools R packages on centOS 7.0 64 bit](http://stackoverflow.com/questions/30394563/cant-install-git2r-nor-devtools-r-packages-on-centos-7-0-64-bit), [<i class='fa fa-stack-overflow'></i> pandoc version 1.12.3 or higher is required and was not found (R shiny)](http://stackoverflow.com/questions/28432607/pandoc-version-1-12-3-or-higher-is-required-and-was-not-found-r-shiny), [<i class='fa fa-github'></i> rmarkdown::render freezes because pandoc freezes when LC_ALL and LANG are unset](https://github.com/rocker-org/shiny/issues/17).
+
+### Results' format proposed in the archivist
+
+If one would present results with the unique hook after the results then the accedsibility. could be improved. Hooks can have the format as presented below and can be an R code that when being executed downloads results from the web (in this case from the GitHub repository named `eRum2016` that belongs to user called `archivistR`)
+
+```{r}
+library(archivist)# maybe library(survminer)
+archivist::aread('archivistR/eRum2016/817107d0e62a9500c4ddb1770bd03378')
+```
+
+In this situation plot can be used in further processing or the data can be extracted from the plot as this the ggplot object (which by default stores data used to produce the object). For example title can be added
+
+```{r}
+result <- archivist::aread('archivistR/eRum2016/817107d0e62a9500c4ddb1770bd03378')
+library(ggplot2)
+result$plot <- result$plot + ggtitle('Extra title')
+result
+```
+
+### Extensions - archivist.github
+
+If you would like to have more archivist functionalities that are synchronized with GitHub's repository storage system (e.g. automatic push after each object's archiving) then you might be interested in the extensions of archivist - the [archivist.github](https://cran.r-project.org/web/packages/archivist.github/)
+
+<img src="http://r-addict.com/images/fulls/archivist_github.png" class="fit image">
+
+
+If you are interested in more use cases of the archivist package then read our [posts and talks history](http://pbiecek.github.io/archivist/Posts.html).
