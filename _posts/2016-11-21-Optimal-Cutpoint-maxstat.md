@@ -188,7 +188,7 @@ Articles in which the maxstat statistics was used:
 Explanation of the selection process for the cutpoint is described [in this vignette, chapter 2](https://cran.r-project.org/web/packages/maxstat/vignettes/maxstat.pdf)
 
 
-Determining the optimal cutpoint for ABDC4 gene's expression
+Determining the optimal cutpoint for ABCD4 gene's expression
 
 
 {% highlight r %}
@@ -196,7 +196,7 @@ BRCA_HNSC.surv_rnaseq.cut <- surv_cutpoint(
    BRCA_HNSC.surv_rnaseq,
    time = "times",
    event = "patient.vital_status",
-   variables = c("ABCD4")
+   variables = c("ABCD4", "cohort")
 )
 summary(BRCA_HNSC.surv_rnaseq.cut)
 {% endhighlight %}
@@ -228,8 +228,7 @@ Categorize ABCD4 variable
 
 
 {% highlight r %}
-BRCA_HNSC.surv_rnaseq.cat <- BRCA_HNSC.surv_rnaseq %>%
-   mutate(ABCD4_expr = ifelse(ABCD4 >= summary(BRCA_HNSC.surv_rnaseq.cut)[1,1], "high", "low"))
+BRCA_HNSC.surv_rnaseq.cat <- surv_categorize(BRCA_HNSC.surv_rnaseq.cut) 
 {% endhighlight %}
 
 # Fit and visualize Kaplan-Meier estimates of survival curves 
@@ -243,7 +242,7 @@ RTCGA way
 {% highlight r %}
 RTCGA::kmTCGA(
    BRCA_HNSC.surv_rnaseq.cat, 
-   explanatory.names = c("ABCD4_expr", "cohort"),
+   explanatory.names = c("ABCD4", "cohort"),
    pval = TRUE,
    conf.int = TRUE,
    xlim = c(0,3000)
@@ -257,7 +256,7 @@ survminer way
 
 {% highlight r %}
 library(survival)
-fit <- survfit(Surv(times, patient.vital_status) ~ ABCD4_expr + cohort,
+fit <- survfit(Surv(times, patient.vital_status) ~ ABCD4 + cohort,
                data = BRCA_HNSC.surv_rnaseq.cat)
 ggsurvplot(
    fit,                     # survfit object with calculated statistics.
