@@ -37,9 +37,10 @@ opts_chunk$set(
 {:toc}
 
 
+
 # What is Zabbix?
 
-According to [procudct overview](http://www.zabbix.com/product.php)
+According to the [product overview](http://www.zabbix.com/product.php)
 
 > With Zabbix it is possible to gather virtually limitless types of data from the network. High performance real-time monitoring means that tens of thousands of servers, virtual machines and network devices can be monitored simultaneously. Along with storing the data, visualization features are available (overviews, maps, graphs, screens, etc), as well as very flexible ways of analyzing the data for the purpose of alerting.
 
