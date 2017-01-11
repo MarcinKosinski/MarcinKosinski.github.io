@@ -79,7 +79,7 @@ plot(sqrt(my_photo)+1); plot(log(grayscale(my_photo)+2)*0.95, rescale = FALSE)
 
 The `rescale` parameter stands for whether you would like to store image in `0-255` or `[0,1]` range, where for `0-255` picture are always rescaled to the maximum range. So to visualize the linear operations you need to set `rescale=FALSE`.
 
-```{r}
+```{r, fig.height=5}
 layout(t(c(1,2,3)))
 plot(my_photo)
 plot(my_photo/2) # nothing happens on a plot 
@@ -125,7 +125,7 @@ f(grayscale(my_photo)) %>% hist(main="Transformed luminance values")
 
 Check the below comparison of an original photo, a grayscaled photo and a grayscaled photo after the histogram equalisation.
 
-```{r}
+```{r, fig.height=5}
 layout(t(1:3))
 plot(my_photo, main = "Original photo")
 plot(grayscale(my_photo), main = "In a grayscale")
@@ -148,7 +148,7 @@ head(mdf, 4)
 
 Note: I am using `as.cimg` since the result of `f` function is a regular vector, that needs to be converted  to `cimg` object for further usage.
 
-```{r, fig.width=10}
+```{r, fig.width=8}
 ggplot(mdf, aes(x, y)) + # create ggplot object
    geom_raster(aes(fill = value)) + # use raster geometry 
    scale_x_continuous(expand = c(0,0)) + # remove margins on X axis
