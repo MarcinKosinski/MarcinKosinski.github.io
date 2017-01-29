@@ -323,7 +323,6 @@ ggsurvplot(
 ```
 
 
-
 # References
 
 - Gehan A. A Generalized Wilcoxon Test for Comparing Arbitrarily Singly-Censored Samples. Biometrika 1965 Jun. 52(1/2):203–23. [JSTOR](www.jstor.org/stable/2333825)

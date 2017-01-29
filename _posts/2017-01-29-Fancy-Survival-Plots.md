@@ -341,7 +341,6 @@ ggsurvplot(
 ![plot of chunk unnamed-chunk-12](/figure/source/2017-01-29-Fancy-Survival-Plots/unnamed-chunk-12-1.png)
 
 
-
 # References
 
 - Gehan A. A Generalized Wilcoxon Test for Comparing Arbitrarily Singly-Censored Samples. Biometrika 1965 Jun. 52(1/2):203–23. [JSTOR](www.jstor.org/stable/2333825)
