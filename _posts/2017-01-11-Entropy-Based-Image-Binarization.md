@@ -30,7 +30,7 @@ output:
 
 Image processing library based on `CImg` - this is the title of `imager` package on [CRAN](https://cran.r-project.org/web/packages/imager/index.html). From the package's overview, it's [website](http://dahtah.github.io/imager/) and a GREAT [vignette: getting started with imager](https://cran.r-project.org/web/packages/imager/vignettes/gettingstarted.html) we can learn that it
 
-> contains a large array of functions for working with image data, with most of these functions coming from the CImg library by David Tschumperlé.
+> contains a large array of functions for working with image data, with most of these functions coming from the CImg library by David Tschumperle.
 
 [CImg](http://cimg.eu) is a simple, modern C++ library for image processing - `imager` is a glue between the R interface and this library that works under the hood.
 
@@ -159,7 +159,7 @@ ggplot(mdf, aes(value, col = channel)) +
 
 ![plot of chunk unnamed-chunk-7](/figure/source/2017-01-11-Entropy-Based-Image-Binarization/unnamed-chunk-7-1.png)
 
-Histogram equalisation makes histograms flat: each pixel’s value is replaced by its rank, which is equivalent to running the data through their empirical cdf, which mainly solves the problem of over-representation for some pixel intensities.
+Histogram equalisation makes histograms flat: each pixel's value is replaced by its rank, which is equivalent to running the data through their empirical cdf, which mainly solves the problem of over-representation for some pixel intensities.
 
 
 {% highlight r %}
@@ -262,13 +262,13 @@ For the binarization I would choose the threshold that maximizes the information
 
 The information gain is defined as 
 
-$H(binarized) + H(pre_binarized) - H(binarized, pre_binarized),$
+$$H(binarized) + H(pre_binarized) - H(binarized, pre_binarized),$$
 
-where $H(X)$ states for the Shannon's entropy:
+where $$H(X)$$ states for the Shannon's entropy:
 
-$H(X) = - \sum_{i=1}^{n} P(x_i)\log_bP(x_i),$
+$$H(X) = - \sum_{i=1}^{n} P(x_i)\log_bP(x_i),$$
 
-where $b$ is the base of the logarithm used (common values of $b$ are 2), and $X(A,B)$ is the conditional entropy for $A$ with a condition to $B$.
+where $$b$$ is the base of the logarithm used (common values of $$b$$ are 2), and $$X(A,B)$$ is the conditional entropy for $$A$$ with a condition to $$B$$.
 
 See an example of an information gain extraction for the binarized image with the threshold = 0.1.
 

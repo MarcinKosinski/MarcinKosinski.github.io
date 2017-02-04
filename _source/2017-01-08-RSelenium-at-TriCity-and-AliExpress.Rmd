@@ -26,12 +26,12 @@ opts_chunk$set(
 		width.cutoff = 150
 		),
 	options(width = 150),
-	eval = FALSE
+	eval = TRUE
 )
 ```
 <img src="/images/fulls/rsel.png" class="fit image"> Due to the incrising interest in the Internet and due to the its rising number of users, one can notice the surprising growth in the demand for analyzing data and information in the Internet that were left by users and for users. Many companies and institutions base their business decisions on the extensive research of social media portals and Internet forums, where users leave reviews on various products and brands. **Not only the same analysis, but also the ability to obtain data from the Internet, is a key part of the puzzle...**
 
-... one can read in the description of the second talk (by Krzysztof Słomczynski ([krzyslom](https://github.com/krzyslom))) of the first meetup of the new Tri-City R Users Group - [meet(R) in Tricity!](https://www.meetup.com/Trojmiejska-Grupa-Entuzjastow-R/events/236257032/). The meeting will be held on this Thursday (12-01-2017) at the Gdańsk University of Technology.
+... one can read in the description of the second talk (by Krzysztof Slomczynski ([krzyslom](https://github.com/krzyslom))) of the first meetup of the new Tri-City R Users Group - [meet(R) in Tricity!](https://www.meetup.com/Trojmiejska-Grupa-Entuzjastow-R/events/236257032/). The meeting will be held on this Thursday (12-01-2017) at the Gdansk University of Technology.
 
 * RSelenium
 * Launching RSelenium

@@ -17,7 +17,7 @@ output:
 
 <img src="/images/fulls/rsel.png" class="fit image"> Due to the incrising interest in the Internet and due to the its rising number of users, one can notice the surprising growth in the demand for analyzing data and information in the Internet that were left by users and for users. Many companies and institutions base their business decisions on the extensive research of social media portals and Internet forums, where users leave reviews on various products and brands. **Not only the same analysis, but also the ability to obtain data from the Internet, is a key part of the puzzle...**
 
-... one can read in the description of the second talk (by Krzysztof Słomczynski ([krzyslom](https://github.com/krzyslom))) of the first meetup of the new Tri-City R Users Group - [meet(R) in Tricity!](https://www.meetup.com/Trojmiejska-Grupa-Entuzjastow-R/events/236257032/). The meeting will be held on this Thursday (12-01-2017) at the Gdańsk University of Technology.
+... one can read in the description of the second talk (by Krzysztof Slomczynski ([krzyslom](https://github.com/krzyslom))) of the first meetup of the new Tri-City R Users Group - [meet(R) in Tricity!](https://www.meetup.com/Trojmiejska-Grupa-Entuzjastow-R/events/236257032/). The meeting will be held on this Thursday (12-01-2017) at the Gdansk University of Technology.
 
 * RSelenium
 * Launching RSelenium
@@ -59,6 +59,12 @@ The result of previous commands is a `remoteDriver` object, in this situation ca
 
 {% highlight r %}
 remDr$navigate("https://login.aliexpress.com/")
+{% endhighlight %}
+
+
+
+{% highlight text %}
+Error in eval(expr, envir, enclos): object 'remDr' not found
 {% endhighlight %}
 
 In this situation you can see than in the remote desktop VNC viewer we have entered Ali Express.
@@ -119,12 +125,62 @@ I will use `order` and `transaction` interchangeably.
 {% highlight r %}
 # get all orders from the current page
 remDr$findElements("class", "order-item-wraper") -> orders
+{% endhighlight %}
+
+
+
+{% highlight text %}
+Error in eval(expr, envir, enclos): object 'remDr' not found
+{% endhighlight %}
+
+
+
+{% highlight r %}
 # extract id, amount and status of the first order
 orders[[1]]$findChildElement("class", "amount-num")$getElementText()[[1]] -> amount
+{% endhighlight %}
+
+
+
+{% highlight text %}
+Error in eval(expr, envir, enclos): object 'orders' not found
+{% endhighlight %}
+
+
+
+{% highlight r %}
 orders[[1]]$findChildElement("class", "product-action")$getElementText()[[1]] -> payed
+{% endhighlight %}
+
+
+
+{% highlight text %}
+Error in eval(expr, envir, enclos): object 'orders' not found
+{% endhighlight %}
+
+
+
+{% highlight r %}
 orders[[1]]$findChildElement("class", "info-body")$getElementText()[[1]] -> id
+{% endhighlight %}
+
+
+
+{% highlight text %}
+Error in eval(expr, envir, enclos): object 'orders' not found
+{% endhighlight %}
+
+
+
+{% highlight r %}
 # the order date is the second element found with
 orders[[1]]$findChildElements("class", "info-body")[[2]]$getElementText()[[1]]
+{% endhighlight %}
+
+
+
+{% highlight text %}
+Error in eval(expr, envir, enclos): object 'orders' not found
 {% endhighlight %}
 
 <img src="/images/fulls/ali1.png" class="fit image">
