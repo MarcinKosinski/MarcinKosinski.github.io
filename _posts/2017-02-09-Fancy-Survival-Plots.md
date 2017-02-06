@@ -3,7 +3,7 @@ layout: post
 title: Comparing (Fancy) Survival Curves with Weighted Log-rank Tests
 comments: true
 published: true
-date: 2017-01-29 11:00:00
+date: 2017-02-09 11:00:00
 author: Marcin Kosiński
 categories: [Biostatistics]
 output:
@@ -146,7 +146,7 @@ ggsurvplot(
 )
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-6](/figure/source/2017-01-29-Fancy-Survival-Plots/unnamed-chunk-6-1.png)
+![plot of chunk unnamed-chunk-6](/figure/source/2017-02-09-Fancy-Survival-Plots/unnamed-chunk-6-1.png)
 
 ## Log-rank (comp) + dust theme
 
@@ -178,7 +178,7 @@ ggsurvplot(
 )
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-7](/figure/source/2017-01-29-Fancy-Survival-Plots/unnamed-chunk-7-1.png)
+![plot of chunk unnamed-chunk-7](/figure/source/2017-02-09-Fancy-Survival-Plots/unnamed-chunk-7-1.png)
 
 ## Gehan-Breslow (generalized Wilcoxon) + flat dark theme
 
@@ -210,7 +210,7 @@ ggsurvplot(
 )
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-8](/figure/source/2017-01-29-Fancy-Survival-Plots/unnamed-chunk-8-1.png)
+![plot of chunk unnamed-chunk-8](/figure/source/2017-02-09-Fancy-Survival-Plots/unnamed-chunk-8-1.png)
 
 ## Tharone-Ware + camoflauge
 
@@ -242,7 +242,7 @@ ggsurvplot(
 )
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-9](/figure/source/2017-01-29-Fancy-Survival-Plots/unnamed-chunk-9-1.png)
+![plot of chunk unnamed-chunk-9](/figure/source/2017-02-09-Fancy-Survival-Plots/unnamed-chunk-9-1.png)
 
 ## Peto-Peto's modified survival estimate + fresh theme
 
@@ -274,7 +274,7 @@ ggsurvplot(
 )
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-10](/figure/source/2017-01-29-Fancy-Survival-Plots/unnamed-chunk-10-1.png)
+![plot of chunk unnamed-chunk-10](/figure/source/2017-02-09-Fancy-Survival-Plots/unnamed-chunk-10-1.png)
 
 ## modified Peto-Peto's (by Andersen) + grass theme
 
@@ -306,7 +306,7 @@ ggsurvplot(
 )
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-11](/figure/source/2017-01-29-Fancy-Survival-Plots/unnamed-chunk-11-1.png)
+![plot of chunk unnamed-chunk-11](/figure/source/2017-02-09-Fancy-Survival-Plots/unnamed-chunk-11-1.png)
 
 ## Fleming-Harrington (p=1, q=1) + light theme
 
@@ -338,7 +338,7 @@ ggsurvplot(
 )
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-12](/figure/source/2017-01-29-Fancy-Survival-Plots/unnamed-chunk-12-1.png)
+![plot of chunk unnamed-chunk-12](/figure/source/2017-02-09-Fancy-Survival-Plots/unnamed-chunk-12-1.png)
 
 
 # References

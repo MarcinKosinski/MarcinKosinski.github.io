@@ -3,7 +3,7 @@ layout: post
 title: Comparing (Fancy) Survival Curves with Weighted Log-rank Tests
 comments: true
 published: true
-date: 2017-01-29 11:00:00
+date: 2017-02-09 11:00:00
 author: Marcin Kosiński
 categories: [Biostatistics]
 output:

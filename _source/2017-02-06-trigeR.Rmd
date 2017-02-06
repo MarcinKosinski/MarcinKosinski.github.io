@@ -3,7 +3,7 @@ layout: post
 title: How successful can an R meetup be? meet(R) in Tricity! - RSelenium and Big Data processing
 comments: true
 published: true
-date: 2017-01-17 11:00:00
+date: 2017-02-06 11:00:00
 author: Marcin Kosiński
 categories: [Meetups and conferences]
 output:
@@ -29,7 +29,7 @@ opts_chunk$set(
 	eval = TRUE
 )
 ```
-<img src="/images/fulls/triger-crop.png" class="fit image"> Last Thursday (12.01.2017) we had a chance to attend the first [TriCity R Users Group](https://www.meetup.com/Trojmiejska-Grupa-Entuzjastow-R/) (Pomerania, Poland) meeting. The meetup was unexpectedly very successful! The success can be measured in the time attendees spent on ardently comments and questions after each of 2 great presentations. After every 20-25 min long presentation we could observe 30 min long lively discussion! It is amazing that questions lasted longer than presentations. Is it thanks to the climate? Is it due to the nature of a Pomeranian community? Perhaps this is due to excellent organization? In this post I present summary of the meeting, I describe presentations and reveal organizers' identity.
+<img src="/images/fulls/triger-crop.png" class="fit image"> At Thursday (12.01.2017) we had a chance to attend the first [TriCity R Users Group](https://www.meetup.com/Trojmiejska-Grupa-Entuzjastow-R/) (Pomerania, Poland) meeting. The meetup was unexpectedly very successful! The success can be measured in the time attendees spent on ardently comments and questions after each of 2 great presentations. After every 20-25 min long presentation we could observe 30 min long lively discussion! It is amazing that questions lasted longer than presentations. Is it thanks to the climate? Is it due to the nature of a Pomeranian community? Perhaps this is due to excellent organization? In this post I present summary of the meeting, I describe presentations and reveal organizers' identity.
 
 * Organizers
 * Speakers
@@ -64,4 +64,4 @@ I hope the next TriCity tigeR meetup will be as successful as this one and that 
 
 # Materials
 
-Presentations were in polish. They are available on [trigeR's GitHub repository](https://github.com/trigeRgroup/spotkanie_12-01-2017) and on speakers' websites [here](https://krzyslom.github.io/meet-R/#/) and [here](link)
+Presentations were in polish. They are available on [trigeR's GitHub repository](https://github.com/trigeRgroup/spotkanie_12-01-2017) and on speakers' websites [here](https://krzyslom.github.io/meet-R/#/) and [here](https://maju116.github.io/trigeR-01.2017/#/section-1)
