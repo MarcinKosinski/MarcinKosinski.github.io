@@ -22,6 +22,7 @@ google_plus_username:  # 115677570336612137067  # Replace this with your Google+
 facebook_username:    DataFortuneTelling  # Replace this with your Facebook username
 dribbble_username:    # Replace this with your Dribbble username
 stackoverflow_usernumber: 3857701 # stackoverflow user numer :) my own invention
+meetup_group: Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup # r users group
 
 # Build settings
 markdown: kramdown

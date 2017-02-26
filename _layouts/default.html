@@ -8,29 +8,31 @@
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      
+
         ga('create', 'UA-75657336-1', 'auto');
         ga('send', 'pageview');
-      
+
       </script>
   		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
   		<meta name="description" content="" />
   		<meta name="keywords" content="" />
   		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
   		<script src="/js/jquery.min.js"></script>
+
   		<script src="/js/jquery.poptrox.min.js"></script>
   		<script src="/js/skel.min.js"></script>
   		<script src="/js/init.js"></script>
   		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script src="https://use.fontawesome.com/3d6de9a58d.js"></script>
   		<noscript>
   			<link rel="stylesheet" href="/css/skel.css" />
   			<link rel="stylesheet" href="/css/style.css" />
   			<link rel="stylesheet" href="/css/style-xlarge.css" />
   			<link rel="stylesheet" href="/css/monokai.css" />
-  			<link rel="alternate" type="application/atom+xml" title="R Addict Blog" href="/atom.xml" />
+        <link rel="alternate" type="application/atom+xml" title="R Addict Blog" href="/atom.xml" />
   		</noscript>
   		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
-  		
+
   		<script src="//load.sumome.com/" data-sumo-site-id="eede8d010c5d71b6639f774a30a355b3c4b861ea3eaedd6c982feca291d9e325" async="async"></script>
   		<!-- Place this tag in your head or just before your close body tag. -->
   		<!-- google plus shares -->
@@ -42,8 +44,8 @@
 
       <header id="header">
 
-         
-         
+
+
           <a href="#" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
           <h1><strong>Marcin Kosiński</strong></h1>
           <h3><strong>I am an <a href="https://www.r-project.org/">R addict</a></strong> with<br>
@@ -72,8 +74,8 @@
            <a href="/pRojects.html" class="button icon fa-folder-open">pRojects</a></div>
 -->
            {{ content }}
-            
-            
+
+
       <div id="main">
             {% if site.disqus %}
             {% include disqus_comments.html %}
@@ -97,8 +99,8 @@
                 </a>
               </li>
               {% endif %}
-              
-              
+
+
               {% if site.stackoverflow_usernumber %}
               <li>
                 <a href="https://stackoverflow.com/users/{{ site.stackoverflow_usernumber }}" class="icon fa-stack-overflow" style="font-size:1.0em;">
@@ -106,7 +108,7 @@
                 </a>
               </li>
               {% endif %}
-              
+
 
               {% if site.twitter_username %}
               <li>
@@ -140,6 +142,14 @@
               </li>
               {% endif %}
 
+              {% if site.meetup_group %}
+              <li>
+                <a href="https://www.meetup.com/{{ site.meetup_group }}" class="icon fa-meetup" style="font-size:1.0em;">
+                  <span class="label">Meetup</span>
+                </a>
+              </li>
+              {% endif %}
+
               {% if site.dribbble_username %}
               <li>
                 <a href="#" class="icon fa-dribbble">
@@ -169,7 +179,7 @@
                 <li>R Toolkit for Biostatistics: <a href="https://rtcga.github.io/RTCGA">RTCGA</a></li>
                 <li>Survival Analysis Plots: <a href="http://www.sthda.com/english/rpkgs/survminer/">survminer</a></li>
                 -->
-                <li><a href="http://whyr.pl/">Why R?</a> 2017 conference</li>
+                <li><a href="http://whyr.pl/">Why R?</a> 2017</li>
                 <li>Blogroll: <a href="http://www.r-bloggers.com/">R-bloggers</a>, <a href="http://smarterpoland.pl/">SmarterPoland</a></li>
             </ul>
             </div>
