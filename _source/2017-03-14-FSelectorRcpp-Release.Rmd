@@ -2,7 +2,7 @@
 layout: post
 title: FSelectorRcpp on CRAN
 comments: true
-published: false
+published: true
 author: Marcin Kosiński
 date: 2017-03-14 8:00:00
 categories: [Feature Selection]
