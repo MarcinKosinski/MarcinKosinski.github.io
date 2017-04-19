@@ -4,10 +4,20 @@ layout: page
 <a href="http://stackexchange.com/users/4713209">
 <img src="http://stackexchange.com/users/flair/4713209.png" width="208" height="58" alt="profile for Marcin Kosiński on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Marcin Kosiński on Stack Exchange, a network of free, community-driven Q&amp;A sites">
 
-Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysis specialty and is working in the Research and Development Department at the biggest polish news web portal. Challenges seeker and big R package enthusiast. Currently working in the field of large-scale online learning and various approaches to personalized news article recommendation. Co-organizer of the +750 members [R Enthusiasts meetups in Warsaw](http://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/). Interested in R packages development and survival analysis models. He also worked as a subject matter expert at +2000 members [Data Crunchers Online R Course](http://pogromcydanych.icm.edu.pl/) at The Warsaw School of Data Analysis.
+Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysis specialty and for the last 30 months he was working in the Research and Development Department at the biggest polish news web portal, [wp.pl](http://wp.pl/) (Virtual Poland Group). Challenges seeker and big R package enthusiast. Currently keen on the field of large-scale online learning and various approaches to personalized news article recommendation. Co-organizer of the +1300 members R Enthusiasts meetups in Warsaw and main organizer of the Polish R Users Conference 2017 called 'Why R? 2017' ([whyr.pl](http://whyr.pl/). Interested in R packages development and survival analysis models. He worked as a subject matter expert at +3000 members [Data Crunchers Online R Course](http://pogromcydanych.icm.edu.pl/) at The Warsaw School of Data Analysis.
+
+> In January 2017, Marcin has started his own R+stats  freelancing company. 
 
 ## Talks and Conferences
 
+- 2017-05 Warsaw, Poland - [Warsaw R Enthusiasts #26](https://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/events/239276697/)
+   - Presentation 
+- 2017-04 Gdańsk, Poland - [meet(R) in TriCity #5](https://www.meetup.com/Trojmiejska-Grupa-Entuzjastow-R/events/238671657/)
+   - 4h Workshop [about sparklyr](https://github.com/MarcinKosinski/trigeR5)
+- 2017-04 Warsaw, Poland - [Data Science Warsaw #25](https://www.meetup.com/Data-Science-Warsaw/events/238737897/)
+   - Presentation [sparklyr: R interface to Apache Spark machine learning algorithms with dplyr back-end](http://r-addict.com/DataScienceWarsaw25/show/#/)
+- 2017-03 Poznań, Poland - [Poznań University of Economics and Business](http://ue.poznan.pl/en/)
+   - Presentation Personalizes News Recommendation on News Portals
 - 2016-10 Warsaw, Poland - [Warsaw R Ladies #1](https://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/events/233908062/)
    - Workshop R basics
 - 2016-10 Poznań, Poland - [European R Users Meeting](http://erum.ue.poznan.pl/)
