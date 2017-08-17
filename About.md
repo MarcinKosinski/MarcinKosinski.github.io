@@ -10,6 +10,8 @@ Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysi
 
 ## Talks and Conferences
 
+- 2017-07 Brussels, Belgium - [UseR!2017 Conference](https://user2017.brussels/)
+   - Presentation [Stochastic Gradient Descent Log-Likelihood Estimation in the Cox Proportional Hazards Model](http://www.sthda.com/english/articles/19-r-conference/37-stochastic-gradient-descent-log-likelihood-estimation-in-the-cox-proportional-hazards-model/?utm_content=buffer21d72&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer)
 - 2017-05 Warsaw, Poland - [Warsaw R Enthusiasts #26](https://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/events/239276697/)
    - Presentation 
 - 2017-04 Gdańsk, Poland - [meet(R) in TriCity #5](https://www.meetup.com/Trojmiejska-Grupa-Entuzjastow-R/events/238671657/)
@@ -17,7 +19,7 @@ Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysi
 - 2017-04 Warsaw, Poland - [Data Science Warsaw #25](https://www.meetup.com/Data-Science-Warsaw/events/238737897/)
    - Presentation [sparklyr: R interface to Apache Spark machine learning algorithms with dplyr back-end](http://r-addict.com/DataScienceWarsaw25/show/#/)
 - 2017-03 Poznań, Poland - [Poznań University of Economics and Business](http://ue.poznan.pl/en/)
-   - Presentation Personalizes News Recommendation on News Portals
+   - Presentation Personalized News Recommendation on News Portals
 - 2016-10 Warsaw, Poland - [Warsaw R Ladies #1](https://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/events/233908062/)
    - Workshop R basics
 - 2016-10 Poznań, Poland - [European R Users Meeting](http://erum.ue.poznan.pl/)
