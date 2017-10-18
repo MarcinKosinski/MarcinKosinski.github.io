@@ -10,10 +10,13 @@ Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysi
 
 ## Talks and Conferences
 
+- 2017-09 Warsaw, Poland - [Why R? 2017 Conferenc](http://whyr.pl/)
+   - Head of the organizing committee
+   - Presentation: refreshed presentation from May about [survminer](http://r-addict.com/WhyR2017/#/) (in polish)
 - 2017-07 Brussels, Belgium - [UseR!2017 Conference](https://user2017.brussels/)
    - Presentation [Stochastic Gradient Descent Log-Likelihood Estimation in the Cox Proportional Hazards Model](http://www.sthda.com/english/articles/19-r-conference/37-stochastic-gradient-descent-log-likelihood-estimation-in-the-cox-proportional-hazards-model/?utm_content=buffer21d72&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer)
 - 2017-05 Warsaw, Poland - [Warsaw R Enthusiasts #26](https://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/events/239276697/)
-   - Presentation 
+   - Presentation (in polish)
 - 2017-04 Gdańsk, Poland - [meet(R) in TriCity #5](https://www.meetup.com/Trojmiejska-Grupa-Entuzjastow-R/events/238671657/)
    - 4h Workshop [about sparklyr](https://github.com/MarcinKosinski/trigeR5)
 - 2017-04 Warsaw, Poland - [Data Science Warsaw #25](https://www.meetup.com/Data-Science-Warsaw/events/238737897/)
