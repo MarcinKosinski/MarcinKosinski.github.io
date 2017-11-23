@@ -98,7 +98,24 @@ one can set up a global ggplot2 palette/theme with
 
 {% highlight r %}
 library(ggthemr)
+{% endhighlight %}
+
+
+
+{% highlight text %}
+Error in library(ggthemr): nie ma pakietu o nazwie 'ggthemr'
+{% endhighlight %}
+
+
+
+{% highlight r %}
 ggthemr('dust')
+{% endhighlight %}
+
+
+
+{% highlight text %}
+Error in ggthemr("dust"): nie udało się znaleźć funkcji 'ggthemr'
 {% endhighlight %}
 and check current colors with 
 
@@ -109,9 +126,7 @@ swatch()
 
 
 {% highlight text %}
-[1] "#555555" "#db735c" "#EFA86E" "#9A8A76" "#F3C57B" "#7A6752" "#2A91A2" "#87F28A" "#6EDCEF"
-attr(,"class")
-[1] "ggthemr_swatch"
+Error in swatch(): nie udało się znaleźć funkcji 'swatch'
 {% endhighlight %}
 
 > Note: the first colour in a swatch is a special one. It is reserved for outlining boxplots, text etc. For color lines first color is not used.
@@ -121,7 +136,17 @@ attr(,"class")
 
 {% highlight r %}
 ggthemr("sea") # set ggthemr theme
+{% endhighlight %}
 
+
+
+{% highlight text %}
+Error in ggthemr("sea"): nie udało się znaleźć funkcji 'ggthemr'
+{% endhighlight %}
+
+
+
+{% highlight r %}
 ggsurvplot(
    fit, # fitted survfit object
    risk.table  = TRUE, # include risk table?
@@ -146,14 +171,28 @@ ggsurvplot(
 )
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-6](/figure/source/2017-02-09-Fancy-Survival-Plots/unnamed-chunk-6-1.png)
+
+
+{% highlight text %}
+Error in swatch(): nie udało się znaleźć funkcji 'swatch'
+{% endhighlight %}
 
 ## Log-rank (comp) + dust theme
 
 
 {% highlight r %}
 ggthemr("dust") # set ggthemr theme
+{% endhighlight %}
 
+
+
+{% highlight text %}
+Error in ggthemr("dust"): nie udało się znaleźć funkcji 'ggthemr'
+{% endhighlight %}
+
+
+
+{% highlight r %}
 ggsurvplot(
    fit, # fitted survfit object
    risk.table  = TRUE, # include risk table?
@@ -178,14 +217,28 @@ ggsurvplot(
 )
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-7](/figure/source/2017-02-09-Fancy-Survival-Plots/unnamed-chunk-7-1.png)
+
+
+{% highlight text %}
+Error in swatch(): nie udało się znaleźć funkcji 'swatch'
+{% endhighlight %}
 
 ## Gehan-Breslow (generalized Wilcoxon) + flat dark theme
 
 
 {% highlight r %}
 ggthemr("flat dark") # set ggthemr theme
+{% endhighlight %}
 
+
+
+{% highlight text %}
+Error in ggthemr("flat dark"): nie udało się znaleźć funkcji 'ggthemr'
+{% endhighlight %}
+
+
+
+{% highlight r %}
 ggsurvplot(
    fit, # fitted survfit object
    risk.table  = TRUE, # include risk table?
@@ -210,14 +263,28 @@ ggsurvplot(
 )
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-8](/figure/source/2017-02-09-Fancy-Survival-Plots/unnamed-chunk-8-1.png)
+
+
+{% highlight text %}
+Error in swatch(): nie udało się znaleźć funkcji 'swatch'
+{% endhighlight %}
 
 ## Tharone-Ware + camoflauge
 
 
 {% highlight r %}
 ggthemr("camoflauge") # set ggthemr theme
+{% endhighlight %}
 
+
+
+{% highlight text %}
+Error in ggthemr("camoflauge"): nie udało się znaleźć funkcji 'ggthemr'
+{% endhighlight %}
+
+
+
+{% highlight r %}
 ggsurvplot(
    fit, # fitted survfit object
    risk.table  = TRUE, # include risk table?
@@ -242,14 +309,28 @@ ggsurvplot(
 )
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-9](/figure/source/2017-02-09-Fancy-Survival-Plots/unnamed-chunk-9-1.png)
+
+
+{% highlight text %}
+Error in swatch(): nie udało się znaleźć funkcji 'swatch'
+{% endhighlight %}
 
 ## Peto-Peto's modified survival estimate + fresh theme
 
 
 {% highlight r %}
 ggthemr("fresh") # set ggthemr theme
+{% endhighlight %}
 
+
+
+{% highlight text %}
+Error in ggthemr("fresh"): nie udało się znaleźć funkcji 'ggthemr'
+{% endhighlight %}
+
+
+
+{% highlight r %}
 ggsurvplot(
    fit, # fitted survfit object
    risk.table  = TRUE, # include risk table?
@@ -274,14 +355,28 @@ ggsurvplot(
 )
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-10](/figure/source/2017-02-09-Fancy-Survival-Plots/unnamed-chunk-10-1.png)
+
+
+{% highlight text %}
+Error in swatch(): nie udało się znaleźć funkcji 'swatch'
+{% endhighlight %}
 
 ## modified Peto-Peto's (by Andersen) + grass theme
 
 
 {% highlight r %}
 ggthemr("grass") # set ggthemr theme
+{% endhighlight %}
 
+
+
+{% highlight text %}
+Error in ggthemr("grass"): nie udało się znaleźć funkcji 'ggthemr'
+{% endhighlight %}
+
+
+
+{% highlight r %}
 ggsurvplot(
    fit, # fitted survfit object
    risk.table  = TRUE, # include risk table?
@@ -306,14 +401,28 @@ ggsurvplot(
 )
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-11](/figure/source/2017-02-09-Fancy-Survival-Plots/unnamed-chunk-11-1.png)
+
+
+{% highlight text %}
+Error in swatch(): nie udało się znaleźć funkcji 'swatch'
+{% endhighlight %}
 
 ## Fleming-Harrington (p=1, q=1) + light theme
 
 
 {% highlight r %}
 ggthemr("light") # set ggthemr theme
+{% endhighlight %}
 
+
+
+{% highlight text %}
+Error in ggthemr("light"): nie udało się znaleźć funkcji 'ggthemr'
+{% endhighlight %}
+
+
+
+{% highlight r %}
 ggsurvplot(
    fit, # fitted survfit object
    risk.table  = TRUE, # include risk table?
@@ -338,7 +447,11 @@ ggsurvplot(
 )
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-12](/figure/source/2017-02-09-Fancy-Survival-Plots/unnamed-chunk-12-1.png)
+
+
+{% highlight text %}
+Error in swatch(): nie udało się znaleźć funkcji 'swatch'
+{% endhighlight %}
 
 
 # References

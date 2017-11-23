@@ -175,5 +175,6 @@ You can also know her from [Incredible Adventures of Beta and Bit](https://www.r
 - [Photos](https://www.facebook.com/pg/whyRconf/photos/?tab=albums) (thanks to Ivona Tautkute)
 - [Presentations](https://github.com/whyRconf/prezentacje/blob/master/README.md)
 - [After movie](https://vimeo.com/239259242)
+- [Workshops](https://github.com/whyRconf/warsztaty)
 
 See you next year!
