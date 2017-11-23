@@ -48,7 +48,7 @@ author:
   name:           'Marcin Kosiński'
   email:          'm.p.kosinski@gmail.com'
 
-gems:
+plugins:
   - jekyll-feed  
   - rouge
 
