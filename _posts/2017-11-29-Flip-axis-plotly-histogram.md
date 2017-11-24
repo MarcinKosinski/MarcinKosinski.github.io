@@ -13,7 +13,7 @@ output:
 
 
 
-<img src="/images/fulls/plotly1.jpg" class="fit image"> This seems easy as it requires just to change `x` parameter to `y` in the plot specification. Well, there are some edge cases in which R users might get in trouble!
+<img src="/images/fulls/plotly1.jpg" class="fit image"> This seems easy as it requires just to change `x` parameter to `y` in the plot specification. Well, there are some edge cases where R users might get a in trouble!
 
 
 {% highlight r %}
