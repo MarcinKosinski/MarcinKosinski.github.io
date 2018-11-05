@@ -8,6 +8,13 @@ Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysi
 
 ## Talks and Conferences
 
+
+- 2018-07-04 Wroclaw, Poland - [Why R? 2018 Conference](http://whyr2018.pl/)
+   - [Multi-state churn analysis with a subscription based product](https://github.com/g6t/mchurn)
+- 2018-06-20 Munich, Germany - [AppliedR Meetup](https://www.meetup.com/Applied-R-Munich/events/250873427/)
+   - [Multi-state churn analysis with a subscription based product](https://github.com/g6t/mchurn)
+- 2018-06-08 Warsaw, Poland - [Data Science Summit](http://dssconf.pl/)
+   - [Multi-state churn analysis with a subscription based product](https://github.com/g6t/mchurn)
 - 2018-05-14 Budapest, Hungary - [European R Users Meeting 2018](http://2018.erum.io/)
    - [Multi-state churn analysis with a subscription based product](https://github.com/g6t/mchurn)
 - 2018-03-28 Warsaw, Poland - [Warsaw Days of Informatics](https://www.warszawskiedniinformatyki.pl/)
