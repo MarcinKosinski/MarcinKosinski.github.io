@@ -4,11 +4,13 @@ layout: page
 <a href="http://stackexchange.com/users/4713209">
 <img src="http://stackexchange.com/users/flair/4713209.png" width="208" height="58" alt="profile for Marcin Kosiński on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Marcin Kosiński on Stack Exchange, a network of free, community-driven Q&amp;A sites">
 
-Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysis specialty. Challenges seeker and devoted R language enthusiast. In the past, keen on the field of large-scale online learning and various approaches to personalized news article recommendation. Community events host: co-organizer of the +1600 members R Enthusiasts meetups in Warsaw and the main organizer of the Polish R Users Conference 2017 ('Why R? 2017' [whyr.pl](http://whyr.pl/)). Interested in R packages development and survival analysis models. He worked as a subject matter expert at +3000 members [Data Crunchers Online R Course](http://pogromcydanych.icm.edu.pl/) at The Warsaw School of Data Analysis. Currently explores and improves methods for quantitative marketing analyses and global surveys at [Gradient Metrics](http://gradientmetrics.com/).
+Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysis specialty. Challenges seeker and devoted R language enthusiast. In the past, keen on the field of large-scale online learning and various approaches to personalized news article recommendation. Community events host: co-organizer of the +1600 members R Enthusiasts meetups in Warsaw and the main organizer of the Polish R Users Conference 2017 and 2018 ('Why R? 2017' [whyr.pl](http://whyr.pl/)). Interested in R packages development and survival analysis models. He worked as a subject matter expert at +3000 members [Data Crunchers Online R Course](http://pogromcydanych.icm.edu.pl/) at The Warsaw School of Data Analysis. Currently explores and improves methods for quantitative marketing analyses and global surveys at [Gradient Metrics](http://gradientmetrics.com/).
 
 ## Talks and Conferences
 
-
+- 2018-10-05 Wroclaw, Poland - [Wroclaw R Users Meetup](https://www.meetup.com/Wroclaw-R-Users-Group/events/255832550/)
+- 2018-09-26 Belgrade, Serbia - [SatRday Belgrade 2018 Conference](https://belgrade2018.satrdays.org/)
+   - [Multi-state churn analysis with a subscription based product](https://github.com/g6t/mchurn)
 - 2018-07-04 Wroclaw, Poland - [Why R? 2018 Conference](http://whyr2018.pl/)
    - [Multi-state churn analysis with a subscription based product](https://github.com/g6t/mchurn)
 - 2018-06-20 Munich, Germany - [AppliedR Meetup](https://www.meetup.com/Applied-R-Munich/events/250873427/)
