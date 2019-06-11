@@ -39,10 +39,10 @@ We are more than happy to announce that Why R? 2019 Conference will be organized
 
 Abstract submissions are format free, but please do not exceed 400 words and state clearly a chosen call. The abstract submission form is available here: [whyr.pl/2019/submit/](https://whyr2018.evenea.pl/?lang=en). One can register for the event under [whyr.pl/2019/register/](http://whyr.pl/2019/register/).
 
-# KeynotesInstitute of Geoecology and Geoinformation, Adam Mickiewicz University
+# Keynotes
 
 Among multiple workshops we are planning to host, the above keynotes have confirmed their talks at Why R? 2019: 
-- Jakub Nowosad (), 
+- Jakub Nowosad (Institute of Geoecology and Geoinformation, Adam Mickiewicz University), 
 - Steph Locke (Principal Consultant (GBR) Locke Data), 
 - Marvin Wright ([ranger package](https://cran.r-project.org/web/packages/ranger/index.html), Leibniz Institute for Prevention Research and Epidemiology), 
 - Sigrid Keydana (Applied Researcher at RStudio, Inc.)
