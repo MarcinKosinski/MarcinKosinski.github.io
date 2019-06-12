@@ -63,7 +63,7 @@ This path focuses on tools used in the interpretative machine learning to unders
 
 - [Straightforward introduction to Deep Learning in R (with Keras)](https://github.com/WhyR2019/workshops/tree/master/keras) Mikołaj Olszewski and Mikołaj Bogucki [iDash](https://idash.pl/)
 - [Shiny Basics](https://github.com/WhyR2019/workshops/tree/master/shiny) Theo	Roe, [Jumping Rivers](https://www.jumpingrivers.com/)
-- [To be announaced](https://github.com/WhyR2019/workshops/tree/master/high_performance)
+- [High Performance Programming Tools with R (NVIDIA graphic cards needed)](https://github.com/WhyR2019/workshops/tree/master/high_performance)
 - [data.table introduction & time-series](https://github.com/WhyR2019/workshops/tree/master/datatable) Jan Gorecki, [H2O.AI](https://www.h2o.ai/)
 - [Speeding up R wih C++ (Rcpp) - from basics to more advanced applications](https://github.com/WhyR2019/workshops/tree/master/rcpp) Piotr WóJcik, [Faculty of Economic Sciences, University of Warsaw](https://www.wne.uw.edu.pl/)
 - [Potentials of R for data linkage](https://github.com/WhyR2019/workshops/tree/master/data_linkage) Radmila 	Velichkovich, [University of Neuchatel](https://www.unine.ch/)
