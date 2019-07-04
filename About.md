@@ -4,9 +4,36 @@ layout: page
 <a href="http://stackexchange.com/users/4713209">
 <img src="http://stackexchange.com/users/flair/4713209.png" width="208" height="58" alt="profile for Marcin Kosiński on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Marcin Kosiński on Stack Exchange, a network of free, community-driven Q&amp;A sites">
 
-Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysis specialty. Challenges seeker and devoted R language enthusiast. In the past, keen on the field of large-scale online learning and various approaches to personalized news article recommendation. Community events host: co-organizer of the +1600 members R Enthusiasts meetups in Warsaw and the main organizer of the Polish R Users Conference 2017 and 2018 ('Why R? 2017' [whyr.pl](http://whyr.pl/)). Interested in R packages development and survival analysis models. He worked as a subject matter expert at +3000 members [Data Crunchers Online R Course](http://pogromcydanych.icm.edu.pl/) at The Warsaw School of Data Analysis. Currently explores and improves methods for quantitative marketing analyses and global surveys at [Gradient Metrics](http://gradientmetrics.com/).
+Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysis specialty. Challenges seeker and devoted R language enthusiast. In the past, keen on the field of large-scale online learning and various approaches to personalized news article recommendation.
+Community events host: organizer of Why R? conferences [whyr.pl](http://whyr.pl/).
+Interested in R packages development and survival analysis models. Currently explores and improves methods for quantitative marketing analyses and global surveys at [Gradient Metrics](http://gradientmetrics.com/).
 
 ## Talks and Conferences
+
+### 2019
+
+- 2019-07-08/09 Yerevan, Armenia - [AUA Data Science Summer School](https://dssummer.aua.am/)
+   - 2*3h Workshop [Introduction to Survival Analysis with Use Cases](https://github.com/MarcinKosinski/DSS_AUA_2019)   
+- 2019-07-08 Yerevan, Armenia - [AUA Data Science Summer School Open Meetup](https://www.facebook.com/events/386095852031556/)
+   - 2h Workshop [Non-negative Matrix Factorization, as a segmentation tool in high dimensional feature spaces](https://github.com/MarcinKosinski/nmf_workshop)   
+- 2019-06-20 Amsterdam, Netherlands - [Amsterdam R Users](https://www.meetup.com/amst-R-dam/events/261858072/)
+   - [Non-negative Matrix Factorization, as a segmentation tool in high dimensional feature spaces](https://github.com/g6t/nmf)   
+- 2019-06-14 Warsaw, Poland - [Data Science Summit Warsaw](http://dssconf.pl)
+   - [Non-negative Matrix Factorization, as a segmentation tool in high dimensional feature spaces](https://github.com/g6t/nmf)   
+- 2019-06-10 Lodz, Poland - [Data Science Lodz](https://www.meetup.com/data-science-lodz/events/261683444/)
+   - [Non-negative Matrix Factorization, as a segmentation tool in high dimensional feature spaces](https://github.com/g6t/nmf)   
+- 2019-05-23 Poznan, Poland - [Poznan R Users](https://www.meetup.com/Poznan-R-User-Group-PAZUR/events/261250064/)
+   - [Non-negative Matrix Factorization, as a segmentation tool in high dimensional feature spaces](https://github.com/g6t/nmf)   
+- 2019-05-18 Gdansk, Poland - [SatRday Gdansk 2019](https://gdansk2019.satrdays.org)
+   - [Non-negative Matrix Factorization, as a segmentation tool in high dimensional feature spaces](https://github.com/g6t/nmf)   
+- 2019-05-09 Cracow, Poland - [Cracow R Users](https://www.meetup.com/erkakrakow/events/259950411/)
+   - [Non-negative Matrix Factorization, as a segmentation tool in high dimensional feature spaces](https://github.com/g6t/nmf)   
+- 2019-04-25 Warsaw, Poland - [Warsaw R Users](https://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/events/260471505/)
+   - [Non-negative Matrix Factorization, as a segmentation tool in high dimensional feature spaces](https://github.com/g6t/nmf)   
+- 2019-03-27 Warsaw, Poland - [Warsaw Days of Informatics](https://warszawskiedniinformatyki.pl/)
+   - [Non-negative Matrix Factorization, as a segmentation tool in high dimensional feature spaces](https://github.com/g6t/nmf)
+
+### 2018
 
 - 2018-10-05 Wroclaw, Poland - [Wroclaw R Users Meetup](https://www.meetup.com/Wroclaw-R-Users-Group/events/255832550/)
 - 2018-09-26 Belgrade, Serbia - [SatRday Belgrade 2018 Conference](https://belgrade2018.satrdays.org/)
@@ -23,6 +50,9 @@ Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysi
    - [Multi-state churn analysis with a subscription based product](https://github.com/g6t/mchurn)
 - 2018-03-08 Copenhagen, Denmark [CopenhagenR](https://www.meetup.com/CopenhagenR-useR-Group/events/248227309/)
    - [Multi-state churn analysis with a subscription based product](https://github.com/g6t/mchurn)
+
+### 2017   
+   
 - 2017-09 Warsaw, Poland - [Why R? 2017 Conferenc](http://whyr.pl/)
    - Head of the organizing committee
    - Presentation: refreshed presentation from May about [survminer](http://r-addict.com/WhyR2017/#/) (in polish)
@@ -36,6 +66,9 @@ Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysi
    - Presentation [sparklyr: R interface to Apache Spark machine learning algorithms with dplyr back-end](http://r-addict.com/DataScienceWarsaw25/show/#/)
 - 2017-03 Poznań, Poland - [Poznań University of Economics and Business](http://ue.poznan.pl/en/)
    - Presentation Personalized News Recommendation on News Portals
+   
+### 2016   
+   
 - 2016-10 Warsaw, Poland - [Warsaw R Ladies #1](https://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/events/233908062/)
    - Workshop R basics
 - 2016-10 Poznań, Poland - [European R Users Meeting](http://erum.ue.poznan.pl/)
@@ -48,6 +81,9 @@ Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysi
    - 5h R semi-advanced Workshop for Mathematicians [Valuable Variables Selection & Binary Classification Methods](http://grupawp.github.io/pg-Rworkshop-2016/)
 - 2016-04 Warsaw, Poland - [The 5th Intercollegiate Biotechnology Symposium](http://msb.symbioza.edu.pl/en/program/)
    - 2x(4h Workshop) [R Tutorial for Biotechnologists](http://r-addict.com/SymbiozaV)
+   
+### 2015   
+   
 - 2015-11 Budapest, Hungary - [BI Forum Conference 2015](https://budapestbi2015.sched.org/event/4JA8/archivist-managing-data-analysis-results) 
    - Talk [archivist: Managing Data Analysis Results](https://github.com/pbiecek/archivist/tree/gh-pages/files/archivist_BIFORUM.pdf)
 - 2015-10  Zakopane, Poland - [ISOBM 2015 Congress](http://isobm.org/index.php?option=com_content&view=article&id=138&Itemid=624) 
@@ -58,6 +94,9 @@ Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysi
    - Role [co-organizer](https://www.facebook.com/events/921016974586900/)
 - 2015-03 Poznań, Poland - [8th International Conference of Contemporary Oncology](http://www.zwrotnikraka.pl/8-international-conference-contemporary-oncology-cancer-genomics-poznan/) 
    - Poster [Applications of RTCGA package for The Cancer Genome Atlas data integration](https://github.com/RTCGA/RTCGA/raw/master/UseCases/BigDataInGenomics.pdf)
+   
+### 2014   
+   
 - 2014-10 Poznań, Poland - [Polish R Users Conference 2014, Poznań Poland](http://www.estymator.ue.poznan.pl/pazur/) 
    - Talk [Archiving artifacts with archivist](https://github.com/MarcinKosinski/Museum/blob/master/pazur_kosinski.pdf)
    
