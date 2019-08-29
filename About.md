@@ -12,6 +12,10 @@ Interested in R packages development and survival analysis models. Currently exp
 
 ### 2019
 
+- 2019-09-12 Vienna, Austria - [Vienna Data Science Group](https://www.meetup.com/pl-PL/Vienna-Data-Science-Group-Meetup/events/264362828/)
+   - [Non-negative Matrix Factorization, as a segmentation tool in high dimensional feature spaces](https://github.com/g6t/nmf)  
+- 2019-08-29 Berlin, Germany - [Berlin R Users](https://www.meetup.com/pl-PL/Berlin-R-Users-Group/events/264160982/)
+   - [Non-negative Matrix Factorization, as a segmentation tool in high dimensional feature spaces](https://github.com/g6t/nmf)  
 - 2019-07-08/09 Yerevan, Armenia - [AUA Data Science Summer School](https://dssummer.aua.am/)
    - 2*3h Workshop [Introduction to Survival Analysis with Use Cases](https://github.com/MarcinKosinski/DSS_AUA_2019)   
 - 2019-07-08 Yerevan, Armenia - [AUA Data Science Summer School Open Meetup](https://www.facebook.com/events/386095852031556/)
