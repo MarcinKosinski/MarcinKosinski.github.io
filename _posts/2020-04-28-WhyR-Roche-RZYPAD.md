@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Why R? Webinar - rZYPAD: Development pipeline for R production
+title: Why R? Webinar - rZYPAD - Development pipeline for R production
 comments: true
 published: true
-date: 2020-04-28 23:00:00
+date: 2020-04-28 23:15:00
 author: Marcin Kosiński
 categories: [webinars]
 tags: [2020, Webinars]
@@ -25,7 +25,7 @@ See you on the [Webinar](https://youtu.be/YyG8E1DdhX0)!
 - donate: [whyr.pl/donate/](https://whyr.pl/donate/)
 - channel: [youtube.com/c/WhyRFoundation](https://www.youtube.com/c/WhyRFoundation)
 - date: every Thursday 8:00 pm GMT+2
-- format: one 45 minutes long talk streamed on YouTube + 10 minutes for Q&A 
+- format: 45 minutes long talk streamed on YouTube + 10 minutes for Q&A 
 - comments: ask questions on YouTube live chat
 
 # Next talks
@@ -40,7 +40,6 @@ See you on the [Webinar](https://youtu.be/YyG8E1DdhX0)!
 # Previous talks
 
 <img src="/images/fulls/webinars/spatial.jpg" class="fit image"> [Robin Lovelace](https://twitter.com/robinlovelace) and [Jakub Nowosad](https://twitter.com/jakub_nowosad) (authors of [Geocomputation with R](https://geocompr.robinlovelace.net/)) - **Recent changes in R spatial and how to be ready for them**. [Video](https://youtu.be/Va0STgco7-4)
-
 
 <img src="/images/fulls/webinars/heidi.jpg" class="fit image">
 
