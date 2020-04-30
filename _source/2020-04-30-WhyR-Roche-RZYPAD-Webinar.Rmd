@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Why R? Webinar - rZYPAD - Development pipeline for R production
+title: Why R? Webinar - Development pipeline for R production - rZYPAD
 comments: true
 published: true
-date: 2020-04-28 23:15:00
+date: 2020-04-30 14:00:00
 author: Marcin Kosiński
 categories: [webinars]
 tags: [2020, Webinars]
