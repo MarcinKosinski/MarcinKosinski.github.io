@@ -3,7 +3,7 @@ layout: post
 title: Why R? Webinar - Humanitarian Data Analysis with R
 comments: true
 published: true
-date: 2020-05-12 08:00:00
+date: 2020-05-15 21:00:00
 author: Marcin Kosiński
 categories: [webinars]
 tags: [2020, Webinars]
@@ -16,9 +16,9 @@ output:
     keep_md: true
 ---
 
-<img src="/images/fulls/webinars/dicko.jpg" class="fit image"> May 14th (8:00pm UTC+2) will bring another webinar at Why R? Foundation YouTube channel. We will host a talk by Ahmadou H. Dicko [dickoah](https://twitter.com/dickoah). The talk will cover **Humanitarian Data Analysis with R**.
+<img src="/images/fulls/webinars/dicko.jpg" class="fit image"> May 14th (8:00pm UTC+2) did bring another webinar at Why R? Foundation YouTube channel. We had host a talk by Ahmadou H. Dicko [dickoah](https://twitter.com/dickoah). The talk covered **Humanitarian Data Analysis with R**.
 
-See you on the [Webinar](https://www.youtube.com/watch?v=V3UX9ml0o6o)!
+The link to the [Webinar](https://www.youtube.com/watch?v=V3UX9ml0o6o)!
 
 # Details
 
