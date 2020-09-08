@@ -16,16 +16,16 @@ output:
     keep_md: true
 ---
 
-<img src="/images/fulls/whyr2020/updated_cover2020_small.jpg" class="fit image"> The fourth edition of Why R? Conference ([2020.whyr.pl](https://2020.whyr.pl/) is starting in 2 weeks! It was planned for September 24-27 2020 and happens remotely. Some pre-events, like **Text Mining Hackathon** start on 23rd (and lasts till the end of 24th). Have a look at this blog post to find out a big-picture agenda, proposed workshops and details around lectures. There are still seats on some workshops if you're willing to participate. Simply visit the registration page [2020.whyr.pl/register/](https://2020.whyr.pl/register/).
+<img src="/images/fulls/whyr2020/updated_cover2020_small.jpg" class="fit image"> The fourth edition of Why R? Conference ([2020.whyr.pl](https://2020.whyr.pl/)) is starting in 2 weeks! It was planned for September 24-27 2020 and happens remotely. Some pre-events, like **Text Mining Hackathon** start on 23rd (and lasts till the end of 24th). Have a look at this blog post to find out a big-picture agenda, proposed workshops and details around lectures. There are still seats on some workshops if you're willing to participate. Simply visit the registration page [2020.whyr.pl/register/](https://2020.whyr.pl/register/).
 
 # Agenda of the conference
 
 <img src="/images/fulls/whyr2020/agenda.jpg" class="fit image"> 
-We start the event with a Text Mining Hackathon (more to come here - [whyr.pl/2020/hackathon](http://whyr.pl/foundation/2020/hackathon/)). Julia Silge, our keynote, who works as  a data scientist and software engineer at RStudio PBC will give a kickoff talk on the evening of 23rd September. The day of 24th is reserved for the Hackathon that ends with a Sponsored Talk by McKinsey & Company, golden sponsor of the conference.
+We start the event with a Text Mining Hackathon (more to come - [whyr.pl/2020/hackathon](http://whyr.pl/foundation/2020/hackathon/)). Julia Silge, our keynote, who works as  a data scientist and software engineer at RStudio PBC will give a kickoff talk on the evening of 23rd September. The day of 24th is reserved for the Hackathon that ends with a Sponsored Talk by McKinsey & Company, golden sponsor of the conference.
 
 ## Workshops
 
-<img src="/images/fulls/whyr2020/agenda_workshops.jpg" class="fit image"> 
+<img src="/images/fulls/whyr2020/agenda_workshops.png" class="fit image"> 
 
 On 25th we scheduled 2 sessions of workshops. You can check descriptions and requirements on this GitHub repository [2020.whyr.pl/workshops/](https://github.com/WhyR2020/workshops). The registration is available through [2020.whyr.pl/register/](https://2020.whyr.pl/register/).
 
@@ -39,7 +39,7 @@ The 26th and 27th are reserved for lectures. The detailed plan can be seen here 
 
 <img src="/images/fulls/whyr2020/keynotes/all_keynotes.JPG" class="fit image"> 
 
-Thanks to the remote setup we are more than excited to host global big names as keynotes this year! Frank Harrel, Riinu Pius, Małgorzata Bogdan, Jan Vitek, Julia Silge and Roger Bivad will give hour long keynotes talks followe by 45 minutes long discussion panels.
+Thanks to the remote setup we are more than excited to host global big names as keynotes this year! Frank Harrel, Riinu Pius, Małgorzata Bogdan, Jan Vitek, Julia Silge and Roger Bivad will give hour long keynotes talks followed by 45 minutes long discussion panels.
 
 # All needed links combined
 
