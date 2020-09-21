@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Last Week to register for Why R? 2020 Conference
+title: Last Week to Register for Why R? 2020 Conference
 comments: true
 published: true
 date: 2020-09-21 18:00:00
@@ -26,4 +26,4 @@ output:
 - You can leave comments and questions on YouTube chat or on relevant Slack channels.
 - You can still join [Text Mining Hackathon](https://2020.whyr.pl/hackathon/) (lasts 24hours 2020-09-23 5pm UTC -> 2020-09-24 5pm UTC)
 - Abstracts of talks are available here [2020.whyr.pl/abstracts/](https://2020.whyr.pl/abstracts/)
-- Check out las seats for workshops [2020.whyr.pl/workshops/](https://2020.whyr.pl/workshops/)
+- Check out last seats for workshops [2020.whyr.pl/workshops/](https://2020.whyr.pl/workshops/)
