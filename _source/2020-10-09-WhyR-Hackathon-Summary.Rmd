@@ -22,7 +22,7 @@ We had an initial 300 participants interested in joining the hackathon before we
 
 # Intro
 
-**A language agnostic competition devoted to text mining where every machine learning practitioner could found challenges to test his/her team!**
+**A language agnostic competition devoted to text mining where every machine learning practitioner could find challenges to test his/her team!**
 
 At this hackathon you could scale the level of difficulty and the area of challenges on your own. Depending on skills and the time that you had you could tune the fun on your own!
 
