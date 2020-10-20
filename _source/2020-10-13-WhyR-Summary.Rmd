@@ -35,7 +35,7 @@ output:
 
 - Gold Sponsor of Hackathon and Conference - [McKinsey & Company](https://www.mckinsey.com/pl/careers/careers-in-poland), 
 - Silver Sponsor of Conference - [RStudio](https://rstudio.com/), 
-- Bronze Sponsor of Conference - [Pearson IOKI](https://ioki.pl/en/).
+- Bronze Sponsor of Conference - [Pearson](https://aipearson.pl/).
 
 We are deeply thankful for all the ideas, funds and the energy invested in the event!
 
