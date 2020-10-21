@@ -1,0 +1,27 @@
+---
+layout: post
+title: Julia Silge - Data visualization for machine learning practitioners
+comments: true
+published: true
+date: 2020-10-22 21:00:00
+author: Marcin Kosiński
+categories: [conference]
+tags: [2020]
+output:
+  html_document:
+    mathjax:  default
+    fig_caption:  true
+    toc: true
+    section_numbering: true
+    keep_md: true
+---
+
+<img src="/images/fulls/whyr2020/keynotes/silge.jpg" class="fit image"> Few weeks ago we finished [Why R? 2020](2020.whyr.pl) conference. We had an honour to host [Julia Silge](https://twitter.com/juliasilge), a data scientist and software engineer at RStudio PBC. This post contains a biography of the speaker and an abstract of her talk: [Data visualization for machine learning practitioners](https://youtu.be/OH_lt8qlSJw).
+
+
+Visual representations of data inform how machine learning practitioners think, understand, and decide. Before charts are ever used for outward communication about a ML system, they are used by the system designers and operators themselves as a tool to make better modeling choices. Practitioners use visualization, from very familiar statistical graphics to creative and less standard plots, at the points of most important human decisions when other ways to validate those decisions can be difficult. Visualization approaches are used to understand both the data that serves as input for machine learning and the models that practitioners create. In this talk, learn about the process of building a ML model in the real world, how and when practitioners use visualization to make more effective choices, and considerations for ML visualization tooling.
+
+
+<iframe width="850" height="480" src="https://www.youtube.com/embed/OH_lt8qlSJw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Julia Silge is a data scientist and software engineer at RStudio PBC where she works on open source modeling tools. She is an author, an international keynote speaker, and a real-world practitioner focusing on data analysis and machine learning practice. Julia loves text analysis, making beautiful charts, and communicating about technical topics with diverse audiences.
