@@ -3,7 +3,7 @@ layout: post
 title: Roger Bivand - Applied Spatial Data Analysis with R - retrospect and prospect
 comments: true
 published: true
-date: 2020-10-28 18:00:00
+date: 2020-10-30 18:00:00
 author: Marcin Kosiński
 categories: [conference]
 tags: [2020]
@@ -16,7 +16,7 @@ output:
     keep_md: true
 ---
 
-<img src="/images/fulls/whyr2020/keynotes/bivand.jpg" class="fit image"> A month ago we finished [Why R? 2020](2020.whyr.pl) conference. We had an pleasure to host [Roger Bivand](https://twitter.com/RogerBivand),  a professor at Norwegian School of Economics and Member of R Foundation. This post contains a biography of the speaker and an abstract of her talk: [R for Health Data Science](https://youtu.be/OH_lt8qlSJw).
+<img src="/images/fulls/whyr2020/keynotes/bivand.jpg" class="fit image"> A month ago we finished [Why R? 2020](2020.whyr.pl) conference. We had an pleasure to host [Roger Bivand](https://twitter.com/RogerBivand),  a professor at Norwegian School of Economics and Member of R Foundation. This post contains a biography of the speaker and an abstract of his talk: [Applied Spatial Data Analysis with R - retrospect and prospect](https://youtu.be/mEAyQ8bv1zU).
 
 
 When we began over 20 years ago, spatial data was usually found in proprietary software, usually geographical information systems, and most positional data was very hard to acquire. Statistics for spatial data existed, but largely without convenient access to positional data. Using S-Plus with ArcView (or GRASS) was popular, but costly; for teaching and field research, R and open source geospatial applications and software libraries provided a feasible alternative. Starting from writing classes for spatial data in R in 2003, we first used the classes in our own
