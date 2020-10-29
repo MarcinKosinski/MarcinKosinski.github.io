@@ -3,7 +3,7 @@ layout: post
 title: Małgorzata Bogdan - Recent developments on Sorted L-One Penalized Estimation
 comments: true
 published: true
-date: 2020-10-29 18:00:00
+date: 2020-10-31 18:00:00
 author: Marcin Kosiński
 categories: [conference]
 tags: [2020]
@@ -16,7 +16,7 @@ output:
     keep_md: true
 ---
 
-<img src="/images/fulls/whyr2020/keynotes/bivand.jpg" class="fit image"> A month ago we finished [Why R? 2020](2020.whyr.pl) conference. We had an pleasure to host [Małgorzata Bogdan](http://www.math.uni.wroc.pl/~mbogdan/), an associate professor of statistics at University of Wrocław. This post contains a biography of the speaker and an abstract of her talk: [Recent developments on Sorted L-One Penalized Estimation](https://youtu.be/OH_lt8qlSJw).
+<img src="/images/fulls/whyr2020/keynotes/bogdan.jpg" class="fit image"> A month ago we finished [Why R? 2020](2020.whyr.pl) conference. We had an pleasure to host [Małgorzata Bogdan](http://www.math.uni.wroc.pl/~mbogdan/), an associate professor of statistics at University of Wrocław. This post contains a biography of the speaker and an abstract of her talk: [Recent developments on Sorted L-One Penalized Estimation](https://youtu.be/OH_lt8qlSJw).
 
 
 Sorted L-One Penalized Estimator is an extension of LASSO, which allows for a reduction of dimension by eliminating some of the model parameters as well as by making some of them equal to each other. In this talk we will present some of the recent developments on SLOPE, with the specific emphasis on the Adaptive Bayesian version of SLOPE and on the strong screening rule, which allows a substantial speeding up of the SLOPE algorithm. 

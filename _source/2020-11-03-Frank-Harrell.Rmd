@@ -3,7 +3,7 @@ layout: post
 title: Frank Harrell - Controversies in Predictive Modeling and Machine Learning
 comments: true
 published: true
-date: 2020-11-02 18:00:00
+date: 2020-11-03 18:00:00
 author: Marcin Kosiński
 categories: [conference]
 tags: [2020]
@@ -16,7 +16,7 @@ output:
     keep_md: true
 ---
 
-<img src="/images/fulls/whyr2020/keynotes/bivand.jpg" class="fit image"> A month ago we finished [Why R? 2020](2020.whyr.pl) conference. We had an pleasure to host [Frank Harrell](https://twitter.com/f2harrell), a professor and a founding chair of the Department of Biostatistics at Vanderbilt University School of Medicine.. This post contains a biography of the speaker and an abstract of his talk: [Controversies in Predictive Modeling and Machine Learning](https://youtu.be/DF1WsYZ94Es).
+<img src="/images/fulls/whyr2020/keynotes/harrell.jpg" class="fit image"> A month ago we finished [Why R? 2020](2020.whyr.pl) conference. We had an pleasure to host [Frank Harrell](https://twitter.com/f2harrell), a professor and a founding chair of the Department of Biostatistics at Vanderbilt University School of Medicine.. This post contains a biography of the speaker and an abstract of his talk: [Controversies in Predictive Modeling and Machine Learning](https://youtu.be/DF1WsYZ94Es).
 
 Frank is a professor and a founding chair of the Department of Biostatistics at Vanderbilt University School of Medicine. Aside from more than 300 scientific publications, Frank has authored Regression Modeling Strategies with Applications to Linear Models, Logistic and Ordinal Regression, and Survival Analysis (2nd Edition 2015, Springer-Verlag), which still serves as a primer in modern statistical modeling for generations of statisticians. His specialties are development of accurate prognostic and diagnostic models, model validation, clinical trials, observational clinical research, cardiovascular research, technology evaluation, pharmaceutical safety, Bayesian methods, quantifying predictive accuracy, missing data imputation, and statistical graphics and reporting.
 
