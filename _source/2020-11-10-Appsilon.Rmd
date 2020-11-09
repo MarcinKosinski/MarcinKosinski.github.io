@@ -1,0 +1,61 @@
+---
+layout: post
+title: Upcoming Why R Webinar - Preserving wildlife with computer vision AND Scaling Shiny Dashboards on a Budget
+comments: true
+published: true
+date: 2020-11-10 11:00:00
+author: Marcin Kosiński
+categories: [conference]
+tags: [2020]
+output:
+  html_document:
+    mathjax:  default
+    fig_caption:  true
+    toc: true
+    section_numbering: true
+    keep_md: true
+---
+
+<img src="/images/fulls/webinars/apsi.jpg" class="fit image"> This Thursday (Nov 12th 7:00pm UTC) at [Why R? Webinars](http://whyr.pl) we will have [Jędrzej Świeżewski PhD](https://linkedin.com/in/swiezew/) and [Damian Budelewski](https://linkedin.com/in/damianbudelewski) from [Appsilon](https://twitter.com/appsilon/status/1319592999958040582) with 2 talks [Preserving wildlife with computer vision AND Scaling Shiny Dashboards on a Budget](https://youtu.be/c1o4LHO5hQ4). The link to the webinar, biograms and abstract are included in this post. Also we share current open positions at Appsilon!
+
+# Current Open Positions at Appsilon
+
+- Project Manager https://appsilon.com/careers/#project-manager
+- Community Manager https://appsilon.com/careers/#community-manager
+- Frontend Engineer https://appsilon.com/careers/#frontend-engineer
+- Infrastructure engineer https://appsilon.com/careers/#senior-infrastructure-engineer
+- R Shiny developer https://appsilon.com/careers/#r-shiny-developer
+
+# Webinar
+
+<iframe width="850" height="480" src="https://www.youtube.com/embed/c1o4LHO5hQ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Speakers
+
+### Jędrzej Świeżewski PhD
+
+Jędrzej's current main focus is exploring both the applications of computer vision and the boundaries of the applicability of the tools involved. His background is in theoretical physics.
+In his free time Jędrzej enjoys skiing and ice skating.
+
+### Damian Budelewski
+
+Damian has a Bachelor's Degree in Electronics and Communication and works as Infrastructure Engineer at Appsilon. He is interested in Cloud services, DevOps methodology, and cybersecurity.
+
+# Descriptions of talk
+
+### Preserving wildlife with computer vision
+In this talk, I will discuss how we have managed to assist wildlife conservationists in their efforts in central Africa, using computer vision. I will touch on the modelling, the real life implementation and also share a treat for R lovers.
+
+### Scaling Shiny Dashboards on a Budget
+I will discuss being prepared for a high traffic load, and understanding the costs and requirements of hosting shiny apps on the cloud. All of this on the example of a shiny app deployed on Shiny Server Open Source and hosted on AWS.
+
+# Sponsors
+
+The event will be sponsored by Appsilon.
+
+Appsilon delivers the most advanced R Shiny apps, data science consulting services and support with R Shiny and Python Dash technologies.
+
+- www: https://appsilon.com
+- fb: https://fb.com/appsilondatascience
+- twitter: https://twitter.com/appsilonds
+- linkedin: https://linkedin.com/company/appsilon/
