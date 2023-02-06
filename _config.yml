@@ -15,12 +15,8 @@ baseurlknitr: "/"
 # Replace the word 'example' with your username if you want to include the icon in the left sidebar
 # Delete the word 'example' if you don't want to include the icon in the left sidebar
 
-twitter_username:     kosinski_rblog  # Replace this with your Twitter username
 github_username:      MarcinKosinski  # Replace this with your GitHub username
-linkedin_username:    marcin-kosiński-81435aab  # Replace this with your LinkedIn username
-google_plus_username:  # 115677570336612137067  # Replace this with your Google+ username
-facebook_username:    DataFortuneTelling  # Replace this with your Facebook username
-dribbble_username:    # Replace this with your Dribbble username
+linkedin_username:    mkosinski  # Replace this with your LinkedIn username
 stackoverflow_usernumber: 3857701 # stackoverflow user numer :) my own invention
 meetup_group: Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup # r users group
 
