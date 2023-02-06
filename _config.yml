@@ -17,7 +17,6 @@ baseurlknitr: "/"
 github_username:      MarcinKosinski  # Replace this with your GitHub username
 linkedin_username:    mkosinski  # Replace this with your LinkedIn username
 stackoverflow_usernumber: 3857701 # stackoverflow user numer :) my own invention
-meetup_group: Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup # r users group
 
 # Build settings
 markdown: kramdown
