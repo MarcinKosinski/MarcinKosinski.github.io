@@ -4,14 +4,34 @@ layout: page
 <a href="http://stackexchange.com/users/4713209">
 <img src="http://stackexchange.com/users/flair/4713209.png" width="208" height="58" alt="profile for Marcin Kosiński on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Marcin Kosiński on Stack Exchange, a network of free, community-driven Q&amp;A sites">
 
-Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysis specialty. Challenges seeker and devoted R language enthusiast. In the past, keen on the field of large-scale online learning and various approaches to personalized news article recommendation.
-Community events host: organizer of Why R? conferences [whyr.pl](http://whyr.pl/).
-Interested in R packages development and survival analysis models. Currently explores and improves methods for quantitative marketing analyses and global surveys at [Gradient Metrics](http://gradientmetrics.com/).
+Marcin Kosiński has a master degree in Mathematical Statistics and Data Analysis specialty. Keen on the field of large-scale real-time learning and personalized recommendations. R developer and survival analysis expert. Spent 4.5 years running quantitative marketing analyses and global surveys at [Gradient Metrics](http://gradientmetrics.com/). Currently working on recommendations systems at emagine (formerly ProData Consult).
 
-## Talks and Conferences
+Community events host: organizer of Why R? conferences [whyr.pl](http://whyr.pl/).
+
+## Talks on Meetups, Conferences and Webinars
+
+### 2020
+
+- 2020-12-12 Remote - [Warsaw Days of Informatics](https://warszawskiedniinformatyki.pl/)
+   - [R on AWS in polish](https://github.com/MarcinKosinski/RonAWS) - [Video](https://www.youtube.com/watch?v=h6FiLrZfI-8)
+   
+- 2020-11-19 Remote - [It Job Fairs](https://targipracyit.pl/) 
+   - Remote Work - tips & tricks - [Video](https://www.youtube.com/watch?v=_QD1jJPh1T0&t=1318s)
+   
+- 2020-10-16 Remote - [Data Science Summit](https://dssconf.pl/)
+   - Hosting R as an API on AWS with SageMaker
+   
+- 2020-11-05 Remote - [Why R? Webinars](https://whyr.pl/foundation/webinars/)
+   - [R on AWS in english](https://github.com/MarcinKosinski/RonAWS) - [Video](https://www.youtube.com/watch?v=h6FiLrZfI-8)
+
+- 2020-07-01 Remote - [x-Europe Webinars](https://xeurope.carrd.co/)
+   - [Multi-state churn analysis](Multi-state churn analysis with a subscription product ) - [Video](https://www.youtube.com/watch?v=bLF7e40pzoM)
 
 ### 2019
 
+- 2019-11-07 Warsaw, Poland - [IT Job Fairs](https://www.facebook.com/events/2106775782965595/)
+  - Remote work setup
+   
 - 2019-09-12 Vienna, Austria - [Vienna Data Science Group](https://www.meetup.com/pl-PL/Vienna-Data-Science-Group-Meetup/events/264362828/)
    - [Non-negative Matrix Factorization, as a segmentation tool in high dimensional feature spaces](https://github.com/g6t/nmf)  
 - 2019-08-29 Berlin, Germany - [Berlin R Users](https://www.meetup.com/pl-PL/Berlin-R-Users-Group/events/264160982/)
