@@ -1,7 +1,6 @@
 # Site settings
 
-title: R Addict Blog #kosinski.r-addict.com # Title of your site
-email: m.p.kosinski@gmail.com # Your contant email
+title: R Addict Blog 
 name: "http://r-addict.com"
 
 description: > # this means to ignore newlines until "baseurl:"
@@ -14,9 +13,6 @@ baseurlknitr: "/"
 # Replace the word 'example' with your username if you want to include the icon in the left sidebar
 # Delete the word 'example' if you don't want to include the icon in the left sidebar
 
-github_username:      MarcinKosinski  # Replace this with your GitHub username
-linkedin_username:    mkosinski  # Replace this with your LinkedIn username
-stackoverflow_usernumber: 3857701 # stackoverflow user numer :) my own invention
 
 # Build settings
 markdown: kramdown
