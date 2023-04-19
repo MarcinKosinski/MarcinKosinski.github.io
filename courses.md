@@ -1,8 +1,9 @@
 ---
 layout: page
+title: Courses
 ---
 
-# "Integrative Omics Data Analysis: Tools and Techniques for Multi-Omics Studies"
+# Integrative Omics Data Analysis: Tools and Techniques for Multi-Omics Studies
 
 ## Overview:
 
