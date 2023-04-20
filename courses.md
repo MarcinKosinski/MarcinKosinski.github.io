@@ -6,7 +6,7 @@ title: Courses
 - [Integrative Omics Data Analysis: Tools and Techniques for Multi-Omics Studies](#integrative-omics-data-analysis-tools-and-techniques-for-multi-omics-studies)
 - [Advanced R Programming including Parallel Processing](#advanced-r-programming-including-parallel-processing)
 - [Survival Analysis and Generalized Linear Models in R](#survival-analysis-and-generalized-linear-models-in-r)
-- [Modeling in R with Bayesian Statistics](#modeling-in-r-with-bayesian-statistics)
+- [Modeling in R with Bayesian Statistics](#stochastic-modeling-in-r-with-bayesian-statistics)
 
 # Integrative Omics Data Analysis: Tools and Techniques for Multi-Omics Studies
 
@@ -138,7 +138,7 @@ We value your interest in our courses, and we encourage you to explore other cou
 
 # Survival Analysis and Generalized Linear Models in R
 
-##Overview
+## Overview
 
 The "Survival Analysis and Generalized Linear Models in R" course is designed for R programmers, statisticians, and researchers who want to learn how to perform survival analysis and generalized linear models (GLMs) using R.
 
