@@ -3,6 +3,11 @@ layout: page
 title: Courses
 ---
 
+- [Integrative Omics Data Analysis: Tools and Techniques for Multi-Omics Studies](#integrative-omics-data-analysis-tools-and-techniques-for-multi-omics-studies)
+- [Advanced R Programming including Parallel Processing](#advanced-r-programming-including-parallel-processing)
+- [Survival Analysis and Generalized Linear Models in R](#survival-analysis-and-generalized-linear-models-in-r)
+- [Modeling in R with Bayesian Statistics](#modeling-in-r-with-bayesian-statistics)
+
 # Integrative Omics Data Analysis: Tools and Techniques for Multi-Omics Studies
 
 ## Overview:
@@ -65,4 +70,69 @@ In addition to his work on TCGA, Marcin has organized many conferences, hackatho
 
 Marcin is a frequent speaker at international conferences and workshops. He is also a sought-after consultant for companies and organizations looking to harness the power of data science for their businesses.
 
+
+
+# Advanced R Programming including Parallel Processing
+
+## Overview
+
+The "Advanced R Programming including Parallel Processing" course is designed for R programmers who want to take their skills to the next level. This course covers advanced R programming concepts, such as data manipulation, visualization, statistical analysis, and machine learning.
+
+In addition, the course provides an in-depth exploration of parallel processing in R, including basic parallel programming concepts, parallel computing with various packages such as parallel, snow, Rmpi, and PBDMPI, and parallel computing with Hadoop and Spark.
+
+Participants will learn to optimize R code for high-performance computing and use tools such as vectorization, compilation, and Rcpp for C++ integration. They will also gain experience in working with big data in R and explore advanced debugging and profiling techniques.
+
+The course will cover advanced topics like version control with Git and GitHub, creating R packages, and working with GPU in R.
+
+Participants can work on real-world projects and collaborate with other R programmers. The course can be customized to meet the specific needs and interests of the participants.
+
+By the end of the course, participants will have a solid understanding of advanced R programming concepts and parallel processing techniques, enabling them to develop faster, more efficient R code and analyze large-scale datasets with ease.
+
+### Module 1: Introduction to Advanced R Programming
+
+- Review of R basics
+- Data structures in R
+- Functions and Control Structures
+- Object-Oriented Programming
+- Debugging and Error Handling
+- Best practices for R programming
+
+### Module 2: Advanced Data Manipulation with R
+
+- Data cleaning and transformation
+- Data wrangling with dplyr and tidyr
+- Data visualization with ggplot2
+- Advanced statistical analysis with R
+- Introduction to machine learning with R
+
+### Module 3: Parallel Processing in R
+
+- Introduction to parallel computing
+- Basic parallel programming concepts
+- Parallelizing R code with parallel package
+- Parallel computing with snow, Rmpi, and PBDMPI
+- Parallel computing with Hadoop and Spark
+
+### Module 4: High-Performance Computing with R
+
+- Introduction to high-performance computing
+- Basic performance tuning techniques
+- Optimizing R code with vectorization and compilation
+- Using Rcpp for C++ integration
+- Working with GPU in R
+
+### Module 5: Advanced R Programming Tools and Techniques
+
+- Version control with Git and GitHub
+- Creating R packages
+- Advanced debugging and profiling techniques
+- Working with big data in R
+- Advanced topics in R programming
+
+
+## Information
+
+We regret to inform you that the "Advanced R Programming including Parallel Processing" course is no longer available. Due to unforeseen circumstances, we are currently experiencing a shortage of qualified tutors to lead this course. We apologize for any inconvenience this may cause.
+
+We value your interest in our courses, and we encourage you to explore other courses available in our program. Please check our website for a list of available courses or contact us for further assistance.
 
