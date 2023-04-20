@@ -136,3 +136,138 @@ We regret to inform you that the "Advanced R Programming including Parallel Proc
 
 We value your interest in our courses, and we encourage you to explore other courses available in our program. Please check our website for a list of available courses or contact us for further assistance.
 
+# Survival Analysis and Generalized Linear Models in R
+
+##Overview
+
+The "Survival Analysis and Generalized Linear Models in R" course is designed for R programmers, statisticians, and researchers who want to learn how to perform survival analysis and generalized linear models (GLMs) using R.
+
+The course covers survival analysis basics, including the Kaplan-Meier estimator, Cox proportional hazards model, time-varying covariates, and competing risks. Participants will also learn advanced survival analysis techniques, such as parametric survival models, cure models, and multiple imputations for missing data.
+
+In the GLMs section, the course covers the exponential family of distributions, link functions, model selection, and validation. Participants will also learn how to perform linear and nonlinear regression models, categorical data analysis, and advanced topics such as mixed effects models, generalized estimating equations, and joint models.
+
+Throughout the course, participants will learn how to implement these methods using R packages such as survival, glm and lme4. They will also gain practical experience working on real-world projects and analyzing datasets using R.
+
+By the end of the course, participants will have a deep understanding of survival analysis and GLMs and be able to use R to implement these methods on their data. They will also have gained the skills to perform data analysis, interpret the results, and communicate their findings effectively.
+
+### Module 1: Introduction to Survival Analysis
+
+- Basics of survival analysis
+- Kaplan-Meier estimator and survival functions
+- Log-rank test and other statistical tests
+- Cox proportional hazards model
+- Time-varying covariates and stratified analysis
+- Checking model assumptions
+
+### Module 2: Introduction to Generalized Linear Models
+
+- Overview of GLMs
+- Exponential family of distributions
+- Link functions and parameter estimation
+- Model selection and validation
+- Interpretation of GLM coefficients
+- Deviance and goodness-of-fit
+
+
+### Module 3: Advanced Survival Analysis
+
+- Competing risks
+- Fine and Gray proportional hazards model
+- Parametric survival models
+- Cure models and non-proportional hazards
+- Multiple imputation for missing data in survival analysis
+- Model selection and validation
+
+
+### Module 4: Linear and Nonlinear Regression Models
+
+- Simple and multiple linear regression models
+- Polynomial regression models
+- Nonlinear regression models
+- Generalized linear regression models
+- Diagnostics and model assessment
+
+### Module 5: Categorical Data Analysis
+
+- Binary and multinomial logistic regression
+- Ordinal logistic regression
+- Poisson regression
+- Zero-inflated and negative binomial regression
+- Model selection and validation
+
+### Module 6: Advanced Topics in GLMs and Survival Analysis
+
+- Mixed effects models
+- Generalized estimating equations
+- Longitudinal data analysis
+- Joint models for longitudinal and survival data
+- Nonparametric smoothing techniques
+- Bayesian methods for GLMs and survival analysis
+
+Note: The course can be customized to fit the needs of the participants, and additional modules may be added based on their interests and requirements.
+
+## Price and duration
+
+Each module of the course is designed to last for 8 days, consisting of two submodules of 4 days each. We have priced each module at 7,000 EUR (32,000 PLN), representing excellent value for the quality of training and expertise we can offer, including access to training materials tailored to your needs.
+
+Remember that participation in this course requires a previous familiarity with the mathematical basics of statistics. The participants are also welcome to start with Modules 1 and 2, which gives a foundation for the other modules in this course.
+
+Please note that we are currently experiencing high demand for the course, and availability is limited. If you are interested in registering for the course, please contact us as soon as possible to secure your place.
+
+## About Marcin
+
+Marcin Kosiński is a highly experienced R programmer and data scientist with over 15 years of experience in the field. He has worked with multiple universities and companies analyzing clinical data in the omic context, where he has applied his expertise in R programming to develop innovative solutions for data analysis.
+
+Marcin's passion for R programming has led him to become an active member of the R community. He has written and contributed to several R packages, including the survminer package, which is widely used for the assessment and validation of survival models.
+
+In addition to his technical skills, Marcin has a Master of Mathematics, which has given him a strong foundation in mathematical theory and problem-solving skills that he applies to his work in data science.
+
+Marcin is also an enthusiastic organizer of conferences, hackathons, and courses about data science, machine learning, and AI. His dedication to sharing his knowledge and passion for R programming has inspired many young data scientists to pursue a career in the field.
+
+Overall, Marcin Kosiński's extensive experience in R programming, data science, and mathematics makes him a highly respected figure in the field. His contributions to the R community have helped advance the field of data analysis and machine learning.
+
+# Stochastic Modeling in R with Bayesian Statistics
+
+## Overview 
+
+The "Stochastic Modeling in R with Bayesian Statistics" course is designed for R programmers and data analysts who want to learn how to build stochastic models using Bayesian statistics in R.
+
+The course covers the fundamentals of Bayesian statistics, including Bayes' theorem, prior and posterior distributions, and Markov Chain Monte Carlo (MCMC) sampling. Participants will learn to implement Bayesian modeling techniques in R using popular packages such as Stan, JAGS, and MCMCpack.
+
+The course also covers stochastic modeling techniques, including Monte Carlo simulation, Brownian motion, and stochastic differential equations. Participants will learn to apply these techniques to solve complex problems in various fields, including finance, physics, and engineering.
+
+Throughout the course, participants will work on practical projects to apply their newly acquired skills to real-world problems. They will also learn how to visualize and interpret the results of their models and communicate their findings effectively.
+
+By the end of the course, participants will have a deep understanding of Bayesian statistics and stochastic modeling in R, enabling them to develop and implement sophisticated models for a wide range of applications. They will also gain the skills necessary to evaluate and improve existing models and algorithms critically.
+
+### Module 1: Introduction to Bayesian Statistics
+
+- Bayesian concepts and Bayes' theorem
+- Prior and posterior distributions
+- Conjugate priors and Bayesian inference
+- Markov Chain Monte Carlo (MCMC) sampling
+- Implementation of Bayesian models in R using Stan
+
+### Module 2: Stochastic Modeling Techniques
+
+- Monte Carlo simulation
+- Brownian motion
+- Stochastic differential equations
+- Application of stochastic modeling in finance, physics, and engineering
+- Model selection and validation
+
+### Module 3: Advanced Bayesian Modeling Techniques
+
+- Hierarchical models
+- Bayesian regression models
+- Bayesian time series analysis
+- Bayesian non-parametric models
+- Bayesian model averaging
+- Bayesian model comparison
+
+## Information
+
+We regret to inform you that the "Stochastic Modeling in R with Bayesian Statistics" course is no longer available. Due to unforeseen circumstances, we are currently experiencing a shortage of qualified tutors to lead this course. We apologize for any inconvenience this may cause.
+
+We value your interest in our courses, and we encourage you to explore other courses available in our program. Please check our website for a list of available courses or contact us for further assistance.
+
